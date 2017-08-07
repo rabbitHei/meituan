@@ -1,0 +1,359 @@
+.bx {
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo_search .search {
+    width: 490px;
+    margin: 21px 0 0 120px;
+}
+
+
+.nav .nav_bx {
+    height: 40px;
+}
+
+.nav .nav_bx .all_kind {
+    width: 231px;
+    height: 40px;
+    background: url(../images/tag.png) no-repeat 0 -31px;
+    padding-left: 15px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;;
+}
+
+.nav .nav_bx .nav_right {
+    width: 924px;
+    height: 40px;
+    background-color: #2bb8aa;
+}
+
+.nav .nav_bx .nav_right ul li {
+    float: left;
+}
+
+.nav .nav_bx .nav_right ul li a {
+    display: block;
+    padding: 10px 18px 9px;
+    min-width: 54px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav .nav_bx .nav_right ul li a:hover {
+    background-color: #00c3b0;
+}
+
+.nav .nav_down {
+    height: 478px;
+}
+
+.nav .nav_down .kind {
+    border: 1px solid #eeeeee;
+    border-top: none;
+    background-color: #fafafa;
+    height: 477px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav .nav_down .kind a:hover {
+    color: #2bb8aa;
+}
+
+.nav .nav_down .kind > ul {
+    position: relative;
+    perspective: 322px;
+    perspective-origin: right;
+    transform-style: preserve-3d;
+}
+
+.nav .nav_down .kind > ul > li {
+    width: 214px;
+    height: 14px;
+    padding: 20px 14px 18px 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav .nav_down .kind > ul > li:nth-last-child(1) {
+    border: none;
+}
+
+.nav .nav_down .kind > ul > li > a {
+    float: left;
+    height: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.nav .nav_down .kind > ul > li > b {
+    float: left;
+    height: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6a6a6a;
+}
+
+.nav .nav_down .kind > ul > li > span {
+    line-height: 14px;
+}
+
+.nav .nav_down .kind > ul > li > span a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+
+.nav .nav_down .kind .youbian {
+    padding: 10px 50px 10px 10px;
+    width: 302px;
+    height: 457px;
+    border-right: 1px solid #bdbdc7;
+    border-bottom: 1px solid #bdbdc7;
+    background-color: #ffffff;
+    /*display: none;*/
+    position: absolute;
+    z-index: 1000;
+    left: 243px;
+    top: 0;
+    transition: transform 0.5s ease 0.1s;
+    transform-origin: left;
+    transform: rotateY(-90deg);
+}
+
+.nav .nav_down .kind .youbian h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.nav .nav_down .kind .youbian li {
+    height: 20px;
+    line-height: 20px;
+}
+
+.nav .nav_down .kind .youbian .current {
+    color: #F76120;
+}
+
+.nav .nav_down .kind .youbian .one {
+    float: left;
+    margin-right: 50px;
+}
+
+.nav .nav_down .kind .youbian .two {
+    float: right;
+}
+
+.nav .nav_down .lunbo {
+    width: 689px;
+    height: 477px;
+    margin-left: 18px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav .nav_down .lunbo .lunbo_common {
+    padding: 21px 0 19px 0;
+    height: 12px;
+    line-height: 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav .nav_down .lunbo .lunbo_common b {
+    color: #f1463b;
+}
+
+.nav .nav_down .lunbo .lunbo_common span {
+    margin-left: 5px;
+}
+
+.nav .nav_down .lunbo .lunbo_common a:hover {
+    color: #2bb8aa;
+}
+
+.nav .nav_down .lunbo .lunbo_common ul {
+    margin-left: 21px;
+}
+
+.nav .nav_down .lunbo .lunbo_common ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+.nav .nav_down .lunbo .lunbo_common ul li:nth-last-child(1) {
+    margin: 0;
+}
+
+.nav .nav_down .lunbo .lunbo_common ul li a.special {
+    color: #f76120;
+}
+
+.nav .nav_down .lunbo .lunbo_common ul li a.special:hover {
+    color: #2bb8aa;
+}
+
+.nav .nav_down .lunbo .lunbo_common span {
+    color: #999999;
+}
+
+.nav .nav_down .lunbo .all_quyu .more {
+    width: 42px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    margin-top: -5px;
+}
+
+.nav .nav_down .lunbo .lbt {
+    width: 689px;
+    height: 318px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav .nav_down .lunbo .lbt .lbt_focus {
+    width: 689px;
+}
+
+.nav .nav_down .lunbo .lbt .lbt_focus .lbt_focus_l {
+    width: 30px;
+    height: 39px;
+    background: url(../images/sprite.png) no-repeat 0 0;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+.nav .nav_down .lunbo .lbt .lbt_focus .lbt_focus_r {
+    width: 61px;
+    height: 39px;
+    background: url(../images/sprite.png) no-repeat 0 -42px;
+    opacity: 0;
+    cursor: pointer;
+    line-height: 39px;
+    color: #ffffff;
+    font-size: 16px;
+    text-indent: 5px;
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+/*轮播*/
+
+.nav .nav_down .lbt_l {
+    padding: 10px 11px 0 0;
+    width: 333px;
+    height: 308px;
+    border-right: 1px solid #eeeeee;
+    position: relative;
+}
+
+.nav .nav_down .lbt_l_box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav .nav_down .lbt_r {
+    padding: 10px 0 0 11px;
+    width: 333px;
+    height: 308px;
+    position: relative;
+}
+
+.nav .nav_down .lbt_r_box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav .nav_down .lbt > div > div div.fl h6 a {
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.nav .nav_down .lbt > div > div div.fl h6 a:hover {
+    text-decoration: underline;
+}
+
+.nav .nav_down .lbt > div > div div.fl p {
+    height: 12px;
+    line-height: 12px;
+    margin-top: 13px;
+    color: #999999;
+}
+
+.nav .nav_down .lbt > div > div div.fr {
+    line-height: 39px;
+    font-size: 22px;
+    color: #f76120;
+}
+
+/*每日上新*/
+.nav .nav_down .ewm_dayNew {
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
+
+.nav .nav_down .ewm_dayNew .ewm {
+    width: 197px;
+    height: 158px;
+    border-bottom: 1px solid #eeeeee;
+    background: url("../images/erweima1.png");
+}
+
+.nav .nav_down .ewm_dayNew .dayNew {
+    width: 197px;
+    height: 260px;
+    padding-top: 58px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.nav .nav_down .ewm_dayNew .dayNew h6 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav .nav_down .ewm_dayNew .dayNew h6 a {
+    color: #333333;
+}
+
+.nav .nav_down .ewm_dayNew .dayNew p {
+    font-size: 14px;
+}
+
+.nav .nav_down .ewm_dayNew .dayNew p a {
+    color: #999999;
+}
+
+.nav .nav_down .ewm_dayNew .dayNew > a {
+    display: inline-block;
+    line-height: 0;
+
+}
+
+.nav .nav_down .ewm_dayNew .dayNew > a > img {
+    transition: transform 2s cubic-bezier(0.25, 0.1, 0.73, 1.6) 0.1s;
+}
+.nav .nav_down .ewm_dayNew .dayNew > a:hover > img{
+    transform:rotateY(360deg);
+}

@@ -1,0 +1,426 @@
+body {
+    background-color: #000;
+}
+
+.banxin {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#bgImg {
+    background: url(../images/dota2.jpg) no-repeat center top;
+    height: 958px;
+    min-width: 1000px;
+}
+
+#box {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: transparent;
+    position: relative;
+}
+
+#video_box {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#nav {
+    width: 1100px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: -1px;
+    overflow: hidden;
+}
+
+#bgImg .header .top#nav_top {
+    background-color: transparent;
+}
+
+.header a {
+    color: white !important;
+
+}
+
+.header {
+    height: 60px !important;
+    font: 600 16px/60px "΢���ź�";
+    overflow: hidden;
+}
+
+.top {
+    border-bottom: none !important;
+    margin-top: 18px !important;
+}
+
+#danmu {
+    width: 888px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    overflow: hidden;
+    /*background-color: yellow;*/
+}
+
+.bottom, .copyright {
+    background-color: #000 !important;
+}
+
+.f_bottom {
+    border-top: none !important;
+    margin-top: 60px !important;
+}
+
+.pics {
+    margin-top: 4px !important;
+    margin-bottom: 20px;
+}
+
+#nav div {
+    width: 340px;
+    height: 151px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 12px;
+
+    background: url("../images/log.jpg") no-repeat center center;
+}
+
+#nav #im1 {
+    margin-left: 111px;
+    width: 482px;
+    height: 156px;
+    background: url("../images/title.jpg") no-repeat center center;
+}
+
+#zhubo {
+    width: 888px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 0px;
+    left: 156px;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+#zhubo #tou {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 3px;
+    margin-left: 5px;
+    background: url("../images/jay.jpg") no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+#zhubo #tou_text p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-indent: 2em;
+}
+
+#zhubo #tou_text span {
+    font-size: 14px;
+    margin-left: 85px;
+    line-height: 30px;
+}
+
+#zhubo #tou_text b {
+    font-size: 12px;
+}
+
+#zhubo i {
+    position: absolute;
+    top: 15px;
+    right: 33px;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    font: 14px/35px "΢���ź�";
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#danmu_gift {
+    float: left;
+    width: 800px;
+    height: 50px;
+    padding: 0px 15px;
+    background-color: rgba(255, 255, 255, .5);
+    position: relative;
+}
+
+#danmu_set {
+    width: 55px;
+    float: right;
+    height: 100px;
+    background-color: lightseagreen;
+    text-align: center;
+
+}
+
+#danmu_set b {
+    display: block;
+    font-size: 30px;
+    margin-top: 12px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+#danmu_text_box {
+    float: left;
+    width: 800px;
+    height: 40px;
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#danmu_gift b {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+#danmu_gift_b1 {
+    position: relative;
+}
+
+/*�Ź���*/
+#color {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    background-color: rgba(255, 255, 255, .5);
+    top: 408px;
+    left: 231px;
+    display: none;
+}
+
+#color span {
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-top: 3px;
+    margin-left: 3px;
+    display: none;
+     /*background-color: green;*/
+}
+
+#color span:hover {
+    width: 24px !important;
+    height: 24px  !important;
+    border: 1px solid orange;
+}
+
+#danmu_gift_b1 span {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#danmu_gift_b2 {
+    position: relative;
+    top: -3px;
+}
+
+b#danmu_gift_b2 b {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    display: none;
+}
+
+b#danmu_gift_b2 b:hover {
+    width: 42px;
+    height: 42px;
+}
+
+b#danmu_gift_b2 b.b1 {
+    left: 5px;
+    background-image: url("../images/ftq.png");
+    background-size: cover;
+}
+
+b#danmu_gift_b2 b.b2 {
+    left: 55px;
+    background-image: url("../images/ky.png");
+    background-size: cover;
+}
+
+b#danmu_gift_b2 b.b3 {
+    left: 105px;
+    background-image: url("../images/xlx.png");
+    background-size: cover;
+}
+
+b#danmu_gift_b2 b.b4 {
+    left: 155px;
+    background-image: url("../images/xm.png");
+    background-size: cover;
+}
+
+b#danmu_gift_b2 b.b5 {
+    left: 205px;
+    background-image: url("../images/ppx.png");
+    background-size: cover;
+}
+
+#danmu_gift u.fr {
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+/*���䵯Ļ��*/
+#danmu_text_box #danmu_input {
+    width: 630px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+#danmu_text_box #danmu_input input {
+    float: left;
+    width: 500px;
+    height: 32px;
+    margin-top: 4px;
+    margin-left: 40px;
+    text-indent: 2em;
+}
+
+#danmu_text_box #danmu_input a {
+    width: 50px;
+    height: 32px;
+    /*background-color: red;*/
+    color: #000;
+    font: 30px/32px "΢���ź�";
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 18px;
+}
+#tanchuang {
+    width: 286px;
+    height: 108px;
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 392px;
+    left: 439px;
+    z-index: 100;
+    border-radius: 10px;
+    display: none;
+}
+#tanchuang #close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#tanchuang p input[type="text"] {
+    position: absolute;
+    width: 42px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    top: 29px;
+    left: 71px;
+   
+}
+#tanchuang p span {
+    position: absolute;
+    font-size: 16px;
+}
+#tanchuang p span.ss1 {
+    top: 41px;
+    left: 25px;
+}
+#tanchuang p span.ss2 {
+    top: 41px;
+    left: 133px;
+}
+#tanchuang p span.ss3 {
+    top: 41px;
+    left: 227px;
+}
+#tanchuang p span.ss3:hover {
+    color:lightseagreen;
+    cursor: pointer;
+}
+#tanchuang p span#spanImg {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 25px;
+    right: 69px;
+    background-size: cover;
+}
+.mask {
+    width: 100%;
+    height: 1322px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, .9);
+}
+.mask_on {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1001;
+}
+#tuichu {
+    display: none;
+    font-size: 30px;;
+    position: absolute;
+    top: 20px;
+    right:43px;
+    z-index: 1005;
+    color:white;
+    cursor: pointer;
+}
+#warn_bg {
+    position: absolute;
+    top: 65px;
+    left: 156px;
+    background-color: rgba(255,0,0,0.3);
+    width: 890px;
+    height: 435px;
+    z-index: 110;
+    border-radius: 15px;
+    display: none;
+}
+#warn_bg #warn {
+    width:634px;
+    height: 100px;
+    margin: 0 auto;
+    font:italic 900 47px/40px "微软雅黑";
+    margin-top: 154px;
+    color: red;
+}
+

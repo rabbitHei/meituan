@@ -1,0 +1,41 @@
+.elevator {
+    position: fixed;
+    left: 50%;
+    margin-left: -654px;
+    top: 10px;
+}
+
+.elevator_ul li {
+    width: 43px;
+}
+
+.elevator_ul li a {
+    padding: 11px 8px 8px 8px;
+    border: 1px solid #eeeeee;
+    color: #999999;
+    display: block;
+    min-height: 14px;
+    background-color: #fff;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.elevator_ul li a:hover {
+    background-color: #2bb8aa;
+    color: #ffffff;
+    border-color: #2bb8aa;
+}
+
+.elevator_ul li a.choose {
+    background-color: #2bb8aa;
+    color: #ffffff;
+    border-color: #2bb8aa;
+}
+
+.elevator_ul li a span {
+    display: block;
+}
+
+.elevator_ul li a span:nth-child(1) {
+    font-size: 20px;
+}

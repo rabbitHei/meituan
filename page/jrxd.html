@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/jrxd.css"/>
+    <link rel="stylesheet" href="../css/导航栏.css"/>
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css"/>
+    <link rel="stylesheet" href="../css/iconfont/iconfont1.css"/>
+    <link rel="stylesheet" href="../iconfont/iconfont.css"/>
+    <link rel="stylesheet" href="../iconfont/iconfont/iconfont.css"/>
+</head>
+<body>
+<!--头部-->
+<div class="top">
+    <div class="bx">
+        <ul class="fl">
+            <li class="enshrine">
+                <a id="enshrineMT" href="javascript:;">
+                    <i class="iconfont">&#xe608;</i>
+                    <span>收藏美团</span>
+                </a>
+            </li>
+            <li class="login">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+            </li>
+        </ul>
+        <ul class="fr" id="top_list">
+            <li><a href="javascript:;">我的订单</a></li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>我的美团</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 80px;">
+                    <li><a href="javascript:;">我的订单</a></li>
+                    <li><a href="javascript:;">我的评价</a></li>
+                    <li><a href="javascript:;">我的收藏</a></li>
+                    <li><a href="javascript:;">抵用券</a></li>
+                    <li><a href="javascript:;">账户余额</a></li>
+                    <li><a href="javascript:;">我的设置</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>最近浏览</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 100px;">
+                    <li><a href="javascript:;">暂无浏览记录</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>联系客服</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 90px;">
+                    <li><a href="javascript:;">申请退款</a></li>
+                    <li><a href="javascript:;">申请退换货</a></li>
+                    <li><a href="javascript:;">查看美团券</a></li>
+                    <li><a href="javascript:;">换绑手机号</a></li>
+                    <li><a href="javascript:;">常见问题</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>我是商家</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 100px;">
+                    <li><a href="javascript:;">登录商家中心</a></li>
+                    <li><a href="javascript:;">我想合作</a></li>
+                    <li><a href="javascript:;">手机免费开店</a></li>
+                    <li><a href="javascript:;">商家营销平台</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>代理商招募</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 120px;">
+                    <li><a href="javascript:;">餐饮代理商招募</a></li>
+                    <li><a href="javascript:;">非餐饮代理商招募</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>更多</span>
+                    <b class="triangle"></b>
+                </a>
+                <ul class="down_list" style="width: 80px;">
+                    <li><a href="javascript:;">手机版</a></li>
+                    <li><a href="javascript:;">邮件订阅</a></li>
+                    <li><a href="javascript:;">邀请好友</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- logo与搜索 -->
+<div class="logo_search bx">
+    <h1 class="fl logo">
+        <a href="javascript:;">美团网</a>
+    </h1>
+
+    <div class="fl city">
+        <h2>
+            <a class="now_city" href="javascript:;">上海</a>
+        </h2>
+
+        <div>
+            <a class="change_city" href="javascript:;">切换城市</a>
+        </div>
+    </div>
+    <div class="fl search">
+        <div class="search_box">
+            <div class="fl choose" id="choose">
+                <ul>
+                    <li>团购</li>
+                    <li>商家</li>
+                </ul>
+                <b class="triangle"></b>
+            </div>
+            <input class="fl" id="search_text" type="text" placeholder="请输入商品名称、地址等">
+            <input type="button" value="搜索">
+        </div>
+        <div class="hot_word">
+            <ul>
+                <li><a href="javascript:;">鸡排</a></li>
+                <li><a href="javascript:;">蛋糕</a></li>
+                <li><a href="javascript:;">自助</a></li>
+                <li><a href="javascript:;">味多美</a></li>
+                <li><a href="javascript:;">小南国</a></li>
+                <li><a href="javascript:;">江南村酒家</a></li>
+                <li><a href="javascript:;">烤肉</a></li>
+                <li><a href="javascript:;">椒往</a></li>
+                <li><a href="javascript:;">火锅</a></li>
+                <li><a href="javascript:;">龙虾</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fr commitment">
+        <a id="commitment_a" href="javascript:;">
+				<span>
+					<i class="tui"></i>
+					<span>随时退</span>
+				</span>
+				<span>
+					<i class="gou"></i>
+					<span>不满意免单</span>
+				</span>
+				<span>
+					<i class="qian"></i>
+					<span>过期退</span>
+				</span>
+        </a>
+    </div>
+</div>
+
+
+<div class="header">
+    <!-- 头部导航 -->
+    <div class="header-nav center">
+        <div class="qbfl fl " id="qbfl">
+            <span>全部分类</span>
+            <i class="iconfont" id="iconfont">&#xe605;</i>
+
+            <div class="daohangtiao">
+                <div class="zuobian fl">
+                    <ul class="daohang">
+                        <li>
+                            <h3><a href="javascript:;">美食</a></h3>
+                            <span>
+                  <a href="javascript:;">自助餐</a>
+                  <a href="javascript:;">代金券</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">酒店/客栈</a></h3>
+                            <span>
+                  <a href="javascript:;">经济型酒店</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">猫眼电影/在线选座</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">KTV</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">休闲娱乐</a></h3>
+                            <span>
+                  <a href="javascript:;">足疗按摩</a>
+                  <a href="javascript:;">温泉</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">周边游/旅游</a></h3>
+                            <span>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">生活服务</a></h3>
+                            <span>
+                  <a href="javascript:;">婚纱摄影</a>
+                  <a href="javascript:;">个性写真</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">丽人</a></h3>
+                            <span>
+                  <a href="javascript:;">美发</a>
+                  <a href="javascript:;">美甲美瞳</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">今日新单</a></h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content1">
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">美食</a></h4>
+                        <ul class="one">
+                            <li><a href="javascript:;">代金券</a></li>
+                            <li><a href="javascript:;">甜点饮品</a></li>
+                            <li><a href="javascript:;" class="current">火锅</a></li>
+                            <li><a href="javascript:;" class="current">自助餐</a></li>
+                            <li><a href="javascript:;">小吃快餐</a></li>
+                            <li><a href="javascript:;">日韩料理</a></li>
+                            <li><a href="javascript:;">西餐</a></li>
+                            <li><a href="javascript:;">聚餐宴请</a></li>
+                            <li><a href="javascript:;">烧烤烤肉</a></li>
+                            <li><a href="javascript:;">东北菜</a></li>
+                            <li><a href="javascript:;">川湘菜</a></li>
+                            <li><a href="javascript:;">江浙菜</a></li>
+                            <li><a href="javascript:;">香锅烤鱼</a></li>
+                        </ul>
+                        <ul class="two">
+                            <li><a href="javascript:;">粤港菜</a></li>
+                            <li><a href="javascript:;">京菜鲁菜</a></li>
+                            <li><a href="javascript:;">咖啡酒吧茶馆</a></li>
+                            <li><a href="javascript:;">云贵菜</a></li>
+                            <li><a href="javascript:;">东南亚菜</a></li>
+                            <li><a href="javascript:;">海鲜</a></li>
+                            <li><a href="javascript:;">素食</a></li>
+                            <li><a href="javascript:;">台湾/客家菜</a></li>
+                            <li><a href="javascript:;">创意菜</a></li>
+                            <li><a href="javascript:;">汤/粥/炖菜</a></li>
+                            <li><a href="javascript:;">其他美食</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">酒店</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">经济型酒店</a></li>
+                            <li><a href="javascript:;">主题酒店</a></li>
+                            <li><a href="javascript:;">度假酒店/度假村</a></li>
+                            <li><a href="javascript:;">公寓型酒店</a></li>
+                            <li><a href="javascript:;">客栈</a></li>
+                            <li><a href="javascript:;">青年旅社</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">当前热映</a></h4>
+                        <ul class="one">
+                            <li><a href="javascript:;">银河护卫队2</a></li>
+                            <li><a href="javascript:;">拆弹·专家</a></li>
+                            <li><a href="javascript:;">速度与激情8</a></li>
+                            <li><a href="javascript:;" class="current">摔跤吧！爸爸</a></li>
+                            <li><a href="javascript:;">超凡战队</a></li>
+                            <li><a href="javascript:;">麻烦家族</a></li>
+                            <li><a href="javascript:;">春娇救志明</a></li>
+                            <li><a href="javascript:;">记忆大师</a></li>
+                            <li><a href="javascript:;">异星觉醒</a></li>
+                            <li><a href="javascript:;">加勒比海盗5：死...</a></li>
+                        </ul>
+                        <ul class="two">
+                            <li><a href="javascript:;">星空影城</a></li>
+                            <li><a href="javascript:;">星美国际影城</a></li>
+                            <li><a href="javascript:;">美亚影城</a></li>
+                            <li><a href="javascript:;" class="current">万达影城</a></li>
+                            <li><a href="javascript:;">中影国际影城</a></li>
+                            <li><a href="javascript:;">上影国际影城</a></li>
+                            <li><a href="javascript:;">万宇国际影城</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl" style="display: none"></div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">休闲娱乐</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">KTV</a></li>
+                            <li><a href="javascript:;">更多休闲娱乐</a></li>
+                            <li><a href="javascript:;">运动健身</a></li>
+                            <li><a href="javascript:;">私人影院</a></li>
+                            <li><a href="javascript:;">足疗按摩</a></li>
+                            <li><a href="javascript:;">洗浴/汗蒸</a></li>
+                            <li><a href="javascript:;">中医养生</a></li>
+                            <li><a href="javascript:;">桌游</a></li>
+                            <li><a href="javascript:;">温泉</a></li>
+                            <li><a href="javascript:;">DIY手工坊</a></li>
+                            <li><a href="javascript:;">密室逃脱</a></li>
+                            <li><a href="javascript:;">酒吧</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">周边游</a></h4>
+                        <ul>
+                            <li><a href="javascript:;">温泉</a></li>
+                            <li><a href="javascript:;">景点</a></li>
+                            <li><a href="javascript:;" class="current">主题公园</a></li>
+                            <li><a href="javascript:;">水上乐园</a></li>
+                            <li><a href="javascript:;">动植物园</a></li>
+                            <li><a href="javascript:;">海洋馆</a></li>
+                            <li><a href="javascript:;">展览馆</a></li>
+                            <li><a href="javascript:;">游船</a></li>
+                            <li><a href="javascript:;">高空观景</a></li>
+                            <li><a href="javascript:;">单车出租</a></li>
+                            <li><a href="javascript:;">农家乐</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">生活服务</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">婚纱摄影</a></li>
+                            <li><a href="javascript:;" class="current">个性写真</a></li>
+                            <li><a href="javascript:;">亲子摄影</a></li>
+                            <li><a href="javascript:;">其他摄影</a></li>
+                            <li><a href="javascript:;">培训课程</a></li>
+                            <li><a href="javascript:;">其他生活</a></li>
+                            <li><a href="javascript:;">汽车服务</a></li>
+                            <li><a href="javascript:;">体检/齿科</a></li>
+                            <li><a href="javascript:;">衣物/皮具洗护</a></li>
+                            <li><a href="javascript:;">鲜花</a></li>
+                            <li><a href="javascript:;">母婴亲子</a></li>
+                            <li><a href="javascript:;">配镜</a></li>
+                            <li><a href="javascript:;">照片冲印</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">丽人</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">美发</a></li>
+                            <li><a href="javascript:;">美容美体</a></li>
+                            <li><a href="javascript:;">美甲美睫</a></li>
+                            <li><a href="javascript:;">瑜伽舞蹈</a></li>
+                            <li><a href="javascript:;">瘦身纤体</a></li>
+                            <li><a href="javascript:;">韩式定妆</a></li>
+                            <li><a href="javascript:;">祛痘</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl" style="display: none"></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav fl">
+            <ul>
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">今日新单</a></li>
+                <li><a href="javascript:;">美食</a></li>
+                <li><a href="javascript:;">身边外卖</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- 头部结束 -->
+
+
+<div class="tap">
+    <div class="tap_1 center">
+        <div class="tap_2">
+            <div class="all fl">全部</div>
+            <span class="iconfont">&#xe697;</span>
+
+            <div class="slt fl" id="slt">
+                <select id="opt">
+                    <option value="">今日新单</option>
+                </select>
+                <a href="javascript:;" id="close"><i class="iconfont">&#xe69a;</i></a>
+
+                <div class="slt_1" id="slt_1">
+                    <ul>
+                        <li><a href="">全部</a></li>
+                        <li><a href="">今日新单</a></li>
+                        <li><a href="">美食</a></li>
+                        <li><a href="">酒店</a></li>
+                        <li><a href="">周边游</a></li>
+                        <li><a href="">休闲娱乐</a></li>
+                        <li><a href="">商务</a></li>
+                        <li><a href="">旅游</a></li>
+                        <li><a href="">生活服务</a></li>
+                        <li><a href="">丽人</a></li>
+                        <li><a href="">购物</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="tap_3">
+            <div class="tap_4">
+                <ul>
+                    <li>区域:</li>
+                    <li>全部</li>
+                    <li><a href="javascript:;">地铁附近 <i class="iconfont">&#xf0008;</i></a></li>
+                    <li><a href="javascript:;">浦东新区</a></li>
+                    <li><a href="javascript:;">徐汇区</a></li>
+                    <li><a href="javascript:;">长宁区</a></li>
+                    <li><a href="javascript:;">黄浦区</a></li>
+                    <li><a href="javascript:;">静安区</a></li>
+                    <li><a href="javascript:;">闵兴区</a></li>
+                    <li><a href="javascript:;">鲁弯曲</a></li>
+                    <li><a href="javascript:;">杨浦区</a></li>
+                    <li><a href="javascript:;">普陀区</a></li>
+                    <li><a href="javascript:;">虹口区</a></li>
+                </ul>
+            </div>
+            <div class="tap_5">
+                <ol>
+                    <li><a href="javascript:;">闸北区</a></li>
+                    <li><a href="javascript:;">宝山区</a></li>
+                    <li><a href="javascript:;">松江区</a></li>
+                    <li><a href="javascript:;">嘉定曲</a></li>
+                    <li><a href="javascript:;">金山区</a></li>
+                    <li><a href="javascript:;">青浦区</a></li>
+                    <li><a href="javascript:;">奉献区</a></li>
+                    <li><a href="javascript:;">崇明区</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!--头部End-->
+<!--nevBg-->
+<div class="nev">
+    <div class="nev_1 center" id="nev_1">
+        <ul>
+            <li><a href="javascript:;">默认</a></li>
+            <li><a href="javascript:;">销量<i class="iconfont">&#xe627;</i></a></li>
+            <li><a href="javascript:;">价格<i class="iconfont">&#xe627;</i></a></li>
+            <li><a href="javascript:;">好评<i class="iconfont">&#xe627;</i></a></li>
+            <li><a href="javascript:;">发布时间<i class="iconfont">&#xe627;</i></a></li>
+        </ul>
+    </div>
+    <div class="nev_2">
+            <div class="nev_3 fl">
+                <a href="javascript:;"><img src="../images/lgh0.jpg" alt="" class="qt"/></a>
+
+                <div class="text">
+                    <a href=""><h3>【上海等】上海华亭宾馆1晚+双人上海环球双人上海环球</h3></a>
+                    <a href=""><p>迪士尼小镇、上海迪士尼度假区、迪士尼百老汇《狮子王》音乐剧等2日跟团游高星酒店*最牛特价</p></a>
+                    <em>￥</em>
+                    <b>398</b>
+                    <u>门店价</u>
+                    <del>￥480</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>50</u>
+                    <em>2335人评价</em>
+                </div>
+            </div>
+
+            <div class="nev_4 fl">
+                <a href="javascript:;"><img src="../images/lgh1.jpg" alt="" class="rqt"/></a>
+
+                <div class="text">
+                    <a href=""><h3>【酒店】吉泰连锁酒店</h3></a>
+                    <a href=""><p>静居普通大床房钟点房6小时，免费WiFi。6小时钟点房，优惠活动，无线网覆盖</p></a>
+                    <em>￥</em>
+                    <b>358</b>
+                    <u>门店价</u>
+                    <del>￥430</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>2</u>
+                    <em>1200人评价</em>
+                </div>
+            </div>
+    </div>
+</div>
+<!--navEnd-->
+<!--pictrue Bg-->
+<div class="pictrue">
+    <div class="pictrue_1 center">
+        <!--left-->
+        <div class="pictrue_2 fl">
+            <div class="pictrue_3 fl" id="pictrue_3">
+                <a href="javascript:;"><img src="../images/h04.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3 id="H">【上海等】上海华亭宾馆1晚+双人上海环球双人上海环球</h3></a>
+                    <a href=""><p>迪士尼小镇、上海迪士尼度假区、迪士尼百老汇《狮子王》音乐剧等2日跟团游高星酒店*最牛特价</p></a>
+                    <em>￥</em>
+                    <b>398</b>
+                    <u>门店价</u>
+                    <del>￥480</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>50</u>
+                    <em>2335人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_4 fl" id="pictrue_4">
+                <a href="javascript:;"><img src="../images/h02.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3 id="H1">【酒店】吉泰连锁酒店</h3></a>
+                    <a href=""><p>静居普通大床房钟点房6小时，免费WiFi。6小时钟点房，优惠活动，无线网覆盖</p></a>
+                    <em>￥</em>
+                    <b>358</b>
+                    <u>门店价</u>
+                    <del>￥430</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>2</u>
+                    <em>1200人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_3 fl">
+                <a href="javascript:;"><img src="../images/h12.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【慈溪出发】迪士尼小镇、上海迪士尼度假</h3></a>
+                    <a href=""><p>上海华亭宾馆1晚+双人上海环球金融中心观光厅等多景点可选+单人自助早餐</p></a>
+                    <em>￥</em>
+                    <b>412</b>
+                    <u>门店价</u>
+                    <del>￥500</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>10</u>
+                    <em>2560人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_4 fl">
+                <a href="javascript:;"><img src="../images/h11.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【上海等】新侨酒店 1 晚+东方明珠广播电视塔</h3></a>
+                    <a href=""><p>迪士尼小镇、上海迪士尼度假区、迪士尼百老汇《狮子王》音乐剧等2日跟团游高星酒店*最牛特价</p></a>
+                    <em>￥</em>
+                    <b>369</b>
+                    <u>门店价</u>
+                    <del>￥428</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>3</u>
+                    <em>暂无评价</em>
+                </div>
+            </div>
+            <div class="pictrue_3 fl">
+                <a href="javascript:;"><img src="../images/h27.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【陆家嘴】上海环球金融中心观光厅94+97+</h3></a>
+                    <a href=""><p>仅售88.0元！最高价值120.0元的上海环球金融中心观光厅94+97+100层散拼门票(学生票),请至少当天</p></a>
+                    <em>￥</em>
+                    <b>88</b>
+                    <u>门店价</u>
+                    <del>￥120</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>100</u>
+                    <em>9980人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_4 fl">
+                <a href="javascript:;"><img src="../images/h28.png" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【多区域】上海海洋水族馆门票+环球金融中</h3></a>
+                    <a href=""><p>迪士尼小镇、上海迪士尼度假区、迪士尼百老汇《狮子王》音乐剧等2日跟团游高星酒店*最牛特价</p></a>
+                    <em>￥</em>
+                    <b>199</b>
+                    <u>门店价</u>
+                    <del>￥300</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>99</u>
+                    <em>5840人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_3 fl">
+                <a href="javascript:;"><img src="../images/h4.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【83店通用】华莱士</h3></a>
+                    <a href=""><p>【83店通用】华莱士：单人餐，无需预约。美味无限无需预约。美味无限</p></a>
+                    <em>￥</em>
+                    <b>12</b>
+                    <u>门店价</u>
+                    <del>￥15</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>50</u>
+                    <em>869人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_4 fl">
+                <a href="javascript:;"><img src="../images/h05.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【2店通用】麦香园蛋糕</h3></a>
+                    <a href=""><p>8寸欧式水果生日蛋糕--领先推出蛋糕店送货上门贴心服务的理念,同城3公里可免费配送到家！</p></a>
+                    <em>￥</em>
+                    <b>88</b>
+                    <u>门店价</u>
+                    <del>￥110</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>25</u>
+                    <em>8489人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_3 fl">
+                <a href="javascript:;"><img src="../images/h4.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【83店通用】华莱士</h3></a>
+                    <a href=""><p>【83店通用】华莱士：单人餐，无需预约。美味无限无需预约。美味无限</p></a>
+                    <em>￥</em>
+                    <b>12</b>
+                    <u>门店价</u>
+                    <del>￥15</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>50</u>
+                    <em>869人评价</em>
+                </div>
+            </div>
+            <div class="pictrue_4 fl">
+                <a href="javascript:;"><img src="../images/h05.jpg" alt=""/></a>
+
+                <div class="text">
+                    <a href=""><h3>【2店通用】麦香园蛋糕</h3></a>
+                    <a href=""><p>8寸欧式水果生日蛋糕--领先推出蛋糕店送货上门贴心服务的理念,同城3公里可免费配送到家！</p></a>
+                    <em>￥</em>
+                    <b>88</b>
+                    <u>门店价</u>
+                    <del>￥110</del>
+                </div>
+                <div class="text_1">
+                    <span>已售</span>
+                    <u>25</u>
+                    <em>8489人评价</em>
+                </div>
+            </div>
+            <div class="switchover fl" id="switchover">
+                <ul>
+                    <li><a href="javascript:;">1</a></li>
+                    <li><a href="javascript:;">2</a></li>
+                    <li><a href="javascript:;">3</a></li>
+                    <li><a href="javascript:;">4</a></li>
+                    <li><a href="javascript:;">5</a></li>
+                    <li><a href="javascript:;">6</a></li>
+                    <li><a href="javascript:;">7</a></li>
+                    <li><a href="#">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--left-->
+        <!--right-->
+        <div class="side fr">
+            <div class="side_1">
+                <img src="../images/h3.png" alt=""/>
+            </div>
+            <div class="side_2" id="side_2"></div>
+            <div class="side_3" id="ad">
+                <div class="title" id="title">
+                    <span>最近浏览</span>
+                    <a href="javascript:;" id="clear">清空</a>
+                    <img src="../images/gd.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!--right-->
+    </div>
+</div>
+<!--pictrue End-->
+<div class="bottom">
+    <div class="f_bottom bx">
+        <!-- 1 -->
+        <div class="listD fl">
+            <h3>获取更新</h3>
+            <ul>
+                <li><a href="#">邮件订阅</a></li>
+                <li><a href="#">iPhone/Android</a></li>
+                <li><a href="#">美团QQ空间</a></li>
+                <li><a href="#">美团新浪微博</a></li>
+                <li><a href="#">sitemap</a></li>
+                <li><a href="#">RSS订阅</a></li>
+            </ul>
+        </div>
+        <!-- 2 -->
+        <div class="listD fl">
+            <h3>商务合作</h3>
+            <ul>
+                <li><a href="#">商家合作</a></li>
+                <li><a href="#">美团商家营销平台</a></li>
+                <li><a href="#">到店餐饮代理商招募</a></li>
+                <li><a href="#">市场合作</a></li>
+                <li><a href="#">美团联盟</a></li>
+                <li><a href="#">美团云</a></li>
+                <li><a href="#">廉正邮箱</a></li>
+                <li><a href="#">聚宝盆餐饮开放平台</a></li>
+                <li><a href="#">美团点评智能收银机</a></li>
+            </ul>
+        </div>
+        <!-- 3 -->
+        <div class="listD fl">
+            <h3>公司信息</h3>
+            <ul>
+                <li><a href="#">关于美团</a></li>
+                <li><a href="#">美团承诺</a></li>
+                <li><a href="#">媒体报道</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">用户协议</a></li>
+                <li><a href="#">商户服务协议</a></li>
+                <li><a href="#">美团点评餐饮安全管理办法</a></li>
+                <li><a href="#">营业执照</a></li>
+            </ul>
+        </div>
+        <!-- 4 -->
+        <div class="listD fl">
+            <h3>用户帮助</h3>
+            <ul>
+                <li><a href="#">申请退款</a></li>
+                <li><a href="#">查看美团券密码</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">开放API</a></li>
+                <li><a href="#">反诈骗公告p</a></li>
+            </ul>
+        </div>
+        <!--右边的客服电话div-->
+        <div class="serviceD fr">
+            <div class="phonenum">
+                <span class="kf_pic"></span>
+                <span class="kf">客服电话</span><br>
+                <span class="num">10107888</span>
+                <span class="time">(9:00-23:00)</span>
+            </div>
+            <div class="back">
+                <span>退款、退换货、查看美团券</span><br>
+		        	<span>
+		        		<a href="#">参考教程，轻松搞定!</a>
+		        	</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p class="reg"> &copy;2017 <a href="#">美团网团购 </a> meituan.com <a href="#">京ICP证070791号 </a> | <a href="#">京ICP备10211739号</a>
+        | <a href="#">电子公告服务规则</a></p>
+
+    <p class="licence"><a href="#">广播电视节目制作经营许可证（京）字第03889号</a></p>
+
+    <p class="copyright_num">
+        <a href="#"><img src="../images/saved_resource(19)" alt="">京公网安备11010502025545号</a></p>
+
+    <p class="pics">
+        <a href="#"><img src="../images/pic_connect1.png" alt=""></a>
+        <a href="#"><img src="../images/pic_connect2.png" alt=""></a>
+        <a href="#"><img src="../images/pic_connect3.png" alt=""></a>
+        <a href="#"><img src="../images/pic_connect4.png" alt=""></a>
+    </p>
+</div>
+</body>
+<script src='../js/jquery-1.12.4.js'></script>
+<script src='../js/common.js'></script>
+<script src="../js/js.js"></script>
+<script>
+
+    var enshrineMT = myId("enshrineMT");
+    enshrineMT.onmouseenter = function () {
+        enshrineMT.children[0].innerHTML = "&#xe692;";
+        enshrineMT.children[0].style.color = "#f76120";
+    };
+    enshrineMT.onmouseleave = function () {
+        enshrineMT.children[0].innerHTML = "&#xe608;";
+        enshrineMT.children[0].style.color = "#666666";
+    }
+    //鼠标进入，导航条出现
+    var qbfl = myId("qbfl");
+    var daohangtiao = document.getElementsByClassName("daohangtiao")[0];
+    var iconfont = myId("iconfont");
+    qbfl.onmouseenter = function () {
+        daohangtiao.style.display = "block";
+        iconfont.innerHTML = "&#xe604;";
+    }
+    qbfl.onmouseleave = function () {
+        daohangtiao.style.display = "none";
+        iconfont.innerHTML = "&#xe605;";
+    }
+
+    //获取右上角列表元素
+    var top_list = myId("top_list").children;
+    //注册右上角列表的鼠标进入和离开事件
+    for (var i = 1; i < top_list.length; i++) {
+        top_list[i].onmouseover = top_listMouseover;
+        top_list[i].onmouseout = top_listMouseout;
+    }
+    //右上角鼠标进入事件处理函数
+    function top_listMouseover() {
+        this.children[0].className = "common mouseover";
+        this.children[0].children[1].className = "triangle_blue";
+        if (this.children[0].children[2]) {
+            this.children[0].children[2].style.display = "none";
+        }
+        this.children[1].style.display = "block";
+    }
+    //右上角鼠标离开事件处理函数
+    function top_listMouseout() {
+        this.children[0].className = "common";
+        this.children[0].children[1].className = "triangle";
+        if (this.children[0].children[2]) {
+            this.children[0].children[2].style.display = "block";
+        }
+        this.children[1].style.display = "none";
+    }
+
+    //获取搜索条件相关元素
+    var choose = myId("choose");
+    var choose_ul = choose.children[0];
+    var choose_li = choose_ul.children;
+    var search_text = myId("search_text");
+    //注册搜索条件鼠标进入事件
+    choose_ul.onmouseover = function () {
+        this.className = "mouseover";
+        choose.children[1].className = "triangle_blue";
+        for (var i = 0; i < choose_li.length; i++) {
+            choose_li[i].style.paddingLeft = "13px";
+        }
+    };
+    //注册搜索条件鼠标离开事件
+    choose_ul.onmouseout = function () {
+        this.className = "";
+        choose.children[1].className = "triangle";
+        for (var i = 0; i < choose_li.length; i++) {
+            choose_li[i].style.paddingLeft = "14px";
+        }
+    };
+    //注册搜索条件鼠标点击事件
+    choose_li[1].onclick = function () {
+        var temp = choose_li[0].innerHTML;
+        choose_li[0].innerHTML = this.innerHTML;
+        this.innerHTML = temp;
+        this.parentElement.className = "";
+        choose.children[1].className = "triangle";
+        for (var i = 0; i < choose_li.length; i++) {
+            choose_li[i].style.paddingLeft = "14px";
+        }
+        if (choose_li[0].innerHTML == "团购") {
+            search_text.placeholder = "请输入商品名称、地址等";
+        } else {
+            search_text.placeholder = "请输入商家名称、地址等";
+        }
+    };
+    //获取搜索框右侧的小图标元素
+    var commitment_a_span = myId("commitment_a").children;
+    //为每个小图标添加鼠标进入和离开时的动画效果
+    for (var i = 0; i < commitment_a_span.length; i++) {
+        commitment_a_span[i].children[0].onmouseover = function () {
+            animate(this, {"transform": 360});
+        };
+        commitment_a_span[i].children[0].onmouseout = function () {
+            animate(this, {"transform": 0});
+        };
+    }
+
+    //    导航的鼠标进入和离开
+    $(document).ready(function () {//这样设置的是行内样式
+        $(".daohang>li").mouseenter(function () {
+            $(this).css("background", "#fff").siblings().css("background", "#eee");
+            $(".youbian").eq($(this).index()).css({
+                'border-right': '1px solid #bdbdc7',
+                'border-bottom': '1px solid #bdbdc7'
+            });
+            $(this).parent().css({
+                "border-left": "1px solid #bdbdc7",
+                "border-bottom": "1px solid #bdbdc7",
+                "border-right": "none"
+            });
+            if ($(this).index() == 3 || $(this).index() == 8) {
+                $(".youbian").eq($(this).index()).css("display", "none").siblings().css("display", "none");
+            } else {
+                $(".youbian").eq($(this).index()).css("display", "block").siblings().css("display", "none");
+            }
+        })
+        $(".qbfl>.daohangtao").mouseleave(function () {
+            $(".daohangtiao>.content1").children("div").css("display", "none");
+        })
+    })
+</script>
+
+
+</html>

@@ -1,0 +1,118 @@
+.bx {
+	width: 980px;
+	margin: 0 auto;
+}
+/*头部begin*/
+.top {
+    height: 29px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f9f9f9;
+}
+
+/*头部左侧*/
+.top .bx .fl li {
+    float: left;
+    padding: 6px 8px 6px 0;
+    line-height: 1.5;
+}
+
+.top .bx .fl li.login a:hover {
+    text-decoration: underline;
+}
+
+.top .bx .fl li.login a:nth-child(1) {
+    padding: 0 5px 0 10px;
+    color: #f76120;
+}
+
+.top .bx .fl li.login a:nth-child(2) {
+    padding: 0 10px 0 5px;
+    border-right: 1px solid #dddddd;
+}
+
+/*头部右侧*/
+.top .bx .fr > li {
+    float: left;
+    line-height: 28px;
+    position: relative;
+}
+
+.top .bx .fr > li:nth-child(1) {
+    padding: 6px 8px;
+    line-height: 16px;
+}
+
+.top .bx .fr li a:hover {
+    color: #2bb8aa;
+}
+
+.top .bx .fr > li:nth-child(1) a:hover {
+    text-decoration: underline;
+}
+
+.top .bx .fr li a.common {
+    display: block;
+    padding: 6px 20px 6px 12px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    z-index: 3;
+}
+
+.top .bx .fr li a.mouseover {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    background-color: #fff;
+    box-shadow: 1px -1px 2px rgba(203, 203, 203, .5);
+}
+
+.top .bx .fr .down_list {
+    position: absolute;
+    right: 0;
+    top: 27px;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    padding: 10px 0;
+    box-shadow: 1px 1px 2px rgba(203, 203, 203, .5);
+    display: none;
+}
+
+.top .bx .fr .down_list li a {
+    display: block;
+    padding: 0 12px;
+    height: 30px;
+}
+
+/*三角型*/
+.top .bx .fr li .triangle {
+    position: absolute;
+    right: 7px;
+    top: 14px;
+    border: 3px solid;
+    border-color: #999999 transparent transparent transparent;
+}
+
+/*蓝色三角形*/
+.top .bx .fr li .triangle_blue {
+    position: absolute;
+    right: 7px;
+    top: 11px;
+    border: 3px solid;
+    border-color: transparent transparent #2bb8aa transparent;
+}
+
+/*竖线*/
+.top .bx .fr li .vertical-line {
+    position: absolute;
+    right: -2px;
+    top: 9px;
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #dddddd;
+}
+
+/*头部end*/

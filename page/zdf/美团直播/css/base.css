@@ -1,0 +1,54 @@
+/*初始化*/
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+body{
+    font: 12px "微软雅黑";
+    /*color: #999;*/
+    /*background-color: #f6f6f6;*/
+}
+img,input{
+    border:0;
+    vertical-align: middle;
+}
+input {
+    padding: 0;
+    outline: none;
+}
+b,i,u,s,em,strong{
+    font-style: normal;
+    font-weight: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+/*公共区*/
+.clear:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/*IE6兼容*/
+.clear{
+    zoom: 1;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*版心*/
+.banxin{
+    /*width: 1190px;*/
+    margin:0 auto;
+}

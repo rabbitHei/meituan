@@ -1,0 +1,163 @@
+.center{
+	width: 980px;
+	margin: 0 auto;
+}
+/*顶部开始*/
+.top{
+	height: 59px;
+	border-bottom: 2px solid #2bb8aa;
+}
+.top .logo{
+	padding: 10px 0;
+	height: 39px;
+}
+.top .logo .logoP{
+	width: 54px;
+	height: 35px;
+	background: url("../images/mtlogo.png");
+}
+.top .logo .loginD .ask{
+	font-size: 14px;
+	line-height: 39px;
+}
+.top .logo .loginD a.lgn{
+	background-color: #2db3a6;
+	padding: 3px 10px;
+	font-size: 12px;
+	color: #fff;
+	border: 1px solid #008177;
+	cursor: pointer;
+	border-radius: 2px;
+}
+/*顶部结束*/
+/*内容部分 开始*/
+.content{
+	height: 358px;
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+}
+/*这个是文本框前文字的统一样式*/
+.content .active{
+	font-size: 14px;
+	color: #333;
+    position: absolute;
+    left: 0;
+	padding-top: 6px;
+    text-align: right;
+    width: 100px;
+}
+/*这个是文本框的统一样式*/
+.content .txt{
+	width: 248px;
+	height: 24px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	line-height: 24px;
+}
+/*统一设置文本框后提示样式*/
+.content .tip{
+	display: none;
+	margin-left: 4px;
+	color: #666;
+	font-size: 12px;
+	padding: 6px 0;
+	line-height: 24px;
+}
+/*统一设置前置图片中线对齐*/
+.content .tip img{
+	vertical-align: -3px;
+}
+/*手机号*/
+.content .mobile_num{
+	position: relative;
+	padding: 8px 0 8px 110px;
+}
+.content .mobile_num #tipName{
+	color: #999;
+	display: inline-block;
+}
+
+/*免费获取短信动态码*/
+.content .freeget span{
+	display: inline-block;
+	background-color: #e3e3e3;
+	margin-left: 110px;
+}
+.content .freeget span input{
+	font-size: 12px;
+	color: #333;
+	line-height: 18px;
+	letter-spacing: .1em;
+	padding: 1px 8px;
+}
+
+/*短信动态码*/
+.content .mes{
+	position: relative;
+	padding: 8px 0 8px 110px;
+}
+
+/*创建密码*/
+.content .pwd_set{
+	position: relative;
+	padding: 8px 0 0 110px;
+}
+
+/*密码强弱提示*/
+.content .pwd_set .pwd_set_ts{
+	padding-top: 6px;
+}
+.content .pwd_set .pwd_set_ts span{
+	background-color: #e3e3e3;
+	display: block;
+	float: left;
+	width: 85px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	border-right: 2px solid 
+}
+
+/*确认密码*/
+.content .pwd_assure{
+	position: relative;
+	padding: 8px 0 8px 110px;
+}
+
+/*同意协议并注册*/
+.content .agree{
+	padding: 8px 0 8px 110px;
+}
+.content .agree span{
+	display: inline-block;
+	background-color: #2db3a6;
+	border: 1px solid #2db3a6;
+	border-radius: 2px;
+}
+.content .agree span a{
+	display: inline-block;
+	color: #666;
+	font:bold 14px "微软雅黑";
+	color: white;
+	padding: 7px 20px 6px;
+	letter-spacing: .1em;
+}
+/*美团用户协议*/
+.content .prot{
+	padding: 3px 0 3px 110px;
+}
+.content .prot a{
+	font-size: 12px;
+	color: #2db3a6;
+}
+/*底部备案*/
+.footer{
+	padding-top: 20px;
+}
+.footer p{
+	font-size: 13px;
+	color: #666;
+	text-align: center;
+}
+
+/*内容部分 结束*/

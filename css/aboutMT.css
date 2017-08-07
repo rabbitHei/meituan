@@ -1,0 +1,585 @@
+.bx {
+    width: 980px;
+    margin: 0 auto;
+}
+.center{
+    width: 980px;
+    margin: 0 auto;
+}
+.bottom .f_bottom .listD{
+    width: 158px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+/*第一页*/
+
+.universal-nav{
+    width: 668px;
+    border-left: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    /*margin: 0 auto;*/
+    margin-top: 10px;
+    padding: 0 30px 20px;
+}
+.universal-nav a:hover{
+    text-decoration: underline;
+}
+.universal-nav .oneul-top{
+    margin-top: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.universal-nav .oneul-top li{
+    float: left;
+    width: 90px;
+    height: 25px;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.onedv-big{
+    width: 668px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+
+    /*margin: 0 auto;*/
+    /*margin-top: 10px;*/
+    padding: 0 30px;
+}
+.onedv-big .oneul-top{
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.onedv-bottom{
+    margin-bottom: 30px;
+}
+.onedv-big .oneul-top li{
+    float: left;
+    width: 90px;
+    height: 25px;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.onedv-big .onedv-top h2{
+    color: #333333;
+}
+.onedv-big .onedv-top span{
+    display: inline-block;
+    width: 74px;
+    height: 2px;
+    background-color: #333333;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.onedv-big .onedv-top b{
+    display: inline-block;
+    width: 598px;
+    height: 2px;
+    background-color: #DDDDDD;
+    margin-left: -4px;
+    margin-top: 15px;
+}
+.onedv-big .onedv-top p{
+    color: #666666;
+}
+.onedv-big .oneul-center{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.onedv-big .oneul-bottom{
+    margin-bottom: 30px;
+}
+.onedv-big .oneul-center li{
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.onedv-big .oneul-bottom li{
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.onedv-big .noedv-bottom{
+    margin-bottom: 30px;
+}
+.onedv-big .noedv-bottom>h2{
+    color: #333333;
+}
+.onedv-big .noedv-bottom>span{
+    width: 74px;
+    height: 2px;
+    background-color: #333333;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.onedv-big .noedv-bottom>b{
+    width: 598px;
+    height: 2px;
+    background-color: #DDDDDD;
+    margin-left: -4px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.onedv-big .noedv-bottom .bom-big li{
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 20px;
+
+}
+.onedv-big .noedv-bottom .bom-big li a{
+    color: #2bb8aa;
+}
+.onedv-big .noedv-bottom .bom-big li a:hover{
+    text-decoration: underline;
+}
+.onedv-big .noedv-bottom .bom-big i{
+    display: block;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.onedv-big .basedv ul li{
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.onedv-big .basedv .sg li a{
+    color: #2bb8aa;
+}
+.onedv-big .basedv .sg li a:hover{
+    text-decoration: underline;
+}
+.onedv-big .basedv .zg{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.onedv-big .basedv .zh li{
+    list-style: none;
+    margin-left: 0px;
+}
+.onedv-big .basedv .zh li a{
+    color:#2bb8aa ;
+}
+.onedv-big .basedv .zh li a:hover{
+    text-decoration: underline;
+}
+.onedv-big .basedv .zh p{
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+/*第二页*/
+/*上半部分*/
+.towdv-big{
+    width: 668px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    /*margin: 0 auto;*/
+    display: none;
+    /*margin-top: 10px;*/
+    padding: 0 30px;
+}
+.towdv-big .oneul-top{
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.towdv-bottom{
+    margin-bottom: 30px;
+}
+.towdv-big .oneul-top li{
+
+    float: left;
+    width: 90px;
+    height: 25px;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.towdv-big .towdv-top{
+    background-color: #F9F9F9;
+    /*padding: 0 25px;*/
+    border: 1px solid #EEEEEE;
+}
+.towdv-big .towdv-top h2{
+    font-size: 28px;
+    font-weight: 500;
+    height:35px;
+    line-height: 30px;
+    padding-left: 22px;
+    border-bottom: 1px solid #EEEEEE;
+    text-indent: -9999px;
+    padding-bottom: 10px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -880px;
+     outline: 0;
+
+    /*font-family: fantasy;*/
+}
+.towdv-big .towdv-top b{
+    display: inline-block;
+    width: 48px;
+    height: 45px;
+
+}
+.towdv-big .towdv-top .top-ul{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.towdv-big .towdv-top .p{
+    padding: 0 25px;
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+.towdv-big .towdv-top .top-ul li{
+    float: left;
+
+    margin-right: 86px;
+}
+.towdv-big .towdv-top li span{
+     padding-top: 10px;
+    padding-left: 10px;
+    color: #696969;
+}
+.towdv-big .towdv-top li .a{
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -378px;
+}
+.towdv-big .towdv-top li .b{
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -430px;
+}
+.towdv-big .towdv-top li .c{
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -482px;
+}
+/*下半部分*/
+.towdv-big .towdv-bottom{
+    margin-top: 45px;
+    /*border-bottom: 1px dashed #999999;*/
+
+}
+.towdv-big .towdv-bottom .line{
+    margin-top: 30px;
+    border-bottom: 1px dashed #CCC;
+}
+.towdv-bottom h3{
+    font-size: 28px;
+    font-weight: 500;
+    height:30px;
+    line-height: 30px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 0;
+    outline: 0;
+}
+.towdv-bottom ol li{
+    padding: 0 69px;
+
+    margin-top: 18px;
+
+}
+.towdv-big .towdv-bottom .towol{
+    height: 60px;
+    text-align: center;
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -316px;
+}
+.towdv-big .towdv-bottom .bottom-bom h4{
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.towdv-big .towdv-bottom .bottom-bom ul>li{
+    margin-left: 15px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.towdv-bottom .a{
+    font-size: 28px;
+    font-weight: 500;
+    height:30px;
+    line-height: 30px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position:0 -284px;
+    outline: 0;
+}
+.towdv-bottom .b{
+    font-size: 28px;
+    font-weight: 500;
+    height:30px;
+    line-height: 30px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -922px;
+    outline: 0;
+}
+.towdv-bottom .c{
+    font-size: 28px;
+    font-weight: 500;
+    height:30px;
+    line-height: 30px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -252px;
+    outline: 0;
+}
+.towdv-bottom .d{
+    font-size: 28px;
+    font-weight: 500;
+    height:30px;
+    line-height: 30px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position:0 -534px;
+    outline: 0;
+}
+.towdv-bottom .e{
+    font-size: 28px;
+    font-weight: 500;
+    height:30px;
+    line-height: 30px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position:0 -630px;
+    outline: 0;
+}
+/*第三页*/
+.threedv-big{
+    width: 668px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    /*margin: 0 auto;*/
+    display: none;
+    /*margin-top: 10px;*/
+    padding: 0 30px;
+}
+.threedv-big .threeul-top li{
+    float: left;
+    width: 90px;
+    height: 25px;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.threedv-big .threeul-top{
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.threedv-big .box-top{
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+}
+.threedv-big .box-top  ul li{
+    margin-top: 20px;
+    width: 180px;
+}
+.threedv-big .box-top  ul .left{
+    margin-right: 30px;
+}
+.threedv-big .box-top  ul{
+    padding: 0 25px 20px;
+}
+.threedv-big .box-top h2{
+    font-size: 28px;
+    font-weight: 500;
+    height:35px;
+    line-height: 30px;
+    padding-left: 22px;
+    border-bottom: 1px solid #EEEEEE;
+    text-indent: -9999px;
+    padding-bottom: 10px;
+    background: url("../images/ppt.png") no-repeat;
+    background-position: 0 -210px;
+    outline: 0;
+}
+.threedv-big .box-top  ul li span{
+    margin-bottom: 10px;
+    display:block;
+    width: 180px;
+    height: 50px;
+    background: url("../images/ppt.png") no-repeat;
+}
+.threedv-big .box-top ul li:nth-child(1) span{
+    background-position: 0 -482px;
+}
+.threedv-big .box-top ul li:nth-child(2) span{
+    background-position: 0 -430px;
+}
+.threedv-big .box-top ul li:nth-child(3) span{
+    background-position: 0 -378px;
+}
+.threedv-big .line{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: dashed 1px #DDDDDD;
+}
+/*下半部分*/
+.threedv-big h3{
+    font-size: 20px;
+    color: #333333;
+}
+.threedv-big .box-center{
+    margin-top: 10px;
+    padding: 0 50px;
+}
+.threedv-big .box-center p{
+
+    background: url("../images/ppt.png") no-repeat;
+    background-position:0 -694px ;
+    margin:10px -45px;
+    display: block;
+    width: 655px;
+    height: 184px;
+}
+.threedv-big .box-center ol li{
+    list-style: decimal;
+    line-height: 20px;
+    color: #666666;
+}
+.threedv-big .text{
+
+    padding: 0 20px;
+}
+.threedv-big .text h4{
+    padding: 10px 0 7px;
+    color: #333333;
+}
+.threedv-big .text ol>li{
+    line-height: 1.8;
+    list-style: decimal;
+    color: #666666;
+    margin-left: 20px;
+}
+.threedv-big .text ol>ul>li{
+    margin-left: 20px;
+    line-height: 1.8;
+}
+.textlast ol li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: 2px;
+}
+/*第四页*/
+.fourdv-big{
+    width: 668px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    /*margin: 0 auto;*/
+    display: none;
+    /*margin-top: 10px;*/
+    padding: 0 30px;
+}
+.fourdv-big .fourul-top{
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.fourdv-big .fourul-top li{
+    float: left;
+    width: 90px;
+    height: 25px;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.fourdv-big .h1 span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    padding: 10px 0;
+    border-bottom: solid 2px #333333;
+
+}
+.fourdv-big .h1{
+    border-bottom: 2px solid #DDDDDD;
+    padding: 10px 0;
+}
+.fourdv-big .report-text{
+    margin-top: 20px;
+}
+.fourdv-big .report-text a{
+    float: left;
+    color: #2BB8AA;
+    font-weight: 600;
+}
+.fourdv-big .report-text a:hover{
+    text-decoration:underline;
+}
+.fourdv-big .report-text span{
+    float: right;
+    color: #999999;
+}
+.fourdv-big .report-text .towp{
+    margin-top: 22px;
+}
+.fourdv-big .report-text .wire{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: dotted 1px #CCCCCC;
+}
+.fourdv-big .switcher ul{
+    margin-left: 160px;
+    height: 50px;
+    margin-top: 50px;
+}
+.fourdv-big .switcher ul li{
+    color: #2BB8AA;
+    float: left;
+    border: solid 1px #EEEEEE;
+    margin-right: 5px;
+}
+.fourdv-big .switcher ul li a{
+    color:#2BB8AA ;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.fourdv-big .switcher ul span{
+    margin-right: 5px;
+    padding: 2px;
+    color:#2BB8AA ;
+    border: solid 1px #EEEEEE;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.fourdv-big .switcher ul span a{
+    padding: 2px
+    color:#2BB8AA ;
+    font-weight: 600;
+    color:#2BB8AA ;
+}

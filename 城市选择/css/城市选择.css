@@ -1,0 +1,169 @@
+/* 顶部上 */
+/* 顶部中 */
+
+
+
+/* 地区选择开始 */
+.areaChoose{
+    width: 978px;
+    height: 3383px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    /* background-color: skyblue; */
+    margin-top: 10px;
+}
+/* 省市选择 */
+.areaChoose .city-province{
+    /* height: 59px; */
+    border-bottom: 1px solid #eee;
+    background-color: #EEEEEE;
+    /* line-height: 59px; */
+    padding: 16px 20px;
+}
+.areaChoose .city-province span{
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.areaChoose .city-province span.zjss{
+    margin-left: 50px;
+}
+
+.areaChoose .city-province input.qd{
+    padding: 1px 8px 0;
+    background-color: #2db3a6;
+    color: #fff;
+    border-radius: 5px;
+}
+.areaChoose .city-province form input:hover{
+    background-color: #008177;
+}
+/* 常用城市 */
+.areaChoose .city-list{
+    padding: 20px;
+    border-bottom: 1px #E5E5E5 solid;
+    /* height: 83px; */
+    font-weight: 700;
+}
+.areaChoose .city-list h3{
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    zoom: 1; 
+}
+.areaChoose .city-list p{
+    display: inline-block;
+    width: 840px;
+    vertical-align: top;
+    zoom: 1; 
+}
+.areaChoose .city-list p a{
+    display: inline-block;
+    margin:0 17px 0 0;
+    width: 4.5em;
+    font-size: 14px;
+    color: #2BB8AA;
+}
+.areaChoose .city-list p a:hover{
+    text-decoration: underline;
+}
+/* 最近访问 */
+.areaChoose .city-recent{
+     padding: 20px;
+     /* height: 62px; */
+     border-bottom: 1px #E5E5E5 solid;
+     /* background-color: yellow; */
+     font-weight: 700;
+}
+.areaChoose .city-recent h3{
+    display: inline-block;
+}
+.areaChoose .city-recent p{
+    display: inline-block;
+}
+.areaChoose .city-recent p a{
+    display: inline-block;
+     font-size: 14px;
+     color: #2BB8AA;
+}
+.areaChoose .city-recent p a:hover{
+    text-decoration: underline;
+}
+/*按拼音首字母选择城市*/
+.areaChoose.areaChoose .cities-list{
+     /*padding: 20px;*/
+     border-bottom:1px solid #ccc;
+
+ }
+.areaChoose .cities-list ol li:hover{
+    background: #eee;
+}
+.areaChoose .cities-list h2{
+    margin: 20px 0 0 20px;
+    width: 140px;
+    height: 32px;
+    background: #2BB8AA;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+}
+.areaChoose .cities-list h2 i{
+    position: absolute;
+    bottom: -18px;
+    left: 20px;
+    color: #2BB8AA;
+    font-size: 30px;
+}
+.areaChoose .cities-list ol li p{
+    margin:20px 0 0 20px;
+    vertical-align: top;
+}
+.areaChoose .cities-list ol li p span.zm{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #F7F7F7;
+    font-size: 16px;
+    background: #eee;
+    text-align: center;
+    vertical-align: top;
+    margin-left:25px;
+}
+.areaChoose .cities-list ol li p span.zm:hover{
+    background: #2bb8aa;
+    color: #fff;
+    border-color:#2bb8aa;
+}
+.areaChoose .cities-list ol li p span.area{
+    display: inline-block;
+    width: 880px;
+}
+.areaChoose .cities-list ol li p span.area a{
+    display: inline-block;
+    zoom: 1;
+    height: 20px;
+    padding: 0 2px 1px;
+    margin: 5px 10px;
+    border-radius: 0;
+    line-height: 20px;
+    color: #2bb8aa ;
+    font-weight: 700;
+    font-size: 14px;
+}
+.areaChoose .cities-list ol li p span.area a:hover{
+    color: #fff;
+    background: #2BB8AA;
+}
+.areaChoose.city-footer{
+    padding: 15px 0 0 10px;
+    font-size: 13px;
+}
+
+.areaChoose .city-footer a{
+       color:#2bb8aa;
+}

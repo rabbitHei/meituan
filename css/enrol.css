@@ -1,0 +1,224 @@
+/*版心*/
+.w{
+    width: 980px;
+    margin: 0 auto;
+}
+.w a:hover{
+    text-decoration: underline;
+}
+/*logo开始*/
+.logo{
+    height: 96px;
+}
+.logo a{
+
+    margin-top: 42px;
+    background: url("../images/logo - 副本.png") no-repeat;
+    height: 54px;
+    display: block;
+}
+.logo a h1{
+    font-size: 42px;
+    color: #2ebcae;
+    text-indent: -9999em;
+}
+/*logo结束*/
+
+.top{
+    height: 370px;
+}
+.top .top_l{
+    width: 590px;
+    height: 370px;
+    position: relative;
+    /*background: url("../images/saved.jpg") no-repeat;*/
+}
+/*登录框开始*/
+.top .top_r{
+    /*margin-top: 40px;*/
+    width:270px;
+    height: 330px;
+    /*background: palegreen;*/
+}
+.top .top_r .prompt_box{
+    padding-left: 10px;
+    line-height: 18px;
+    border-radius: 1px;
+    padding-top: 10px;
+    border: 1px solid #f5d8a7;
+    background: #fff6db;
+    color: #6a6669;
+    padding-bottom: 10px;
+    opacity: 0;
+}
+.top .top_r .prompt_box b{
+    padding-right: 5px;
+     float: left;
+     width: 17px;
+     height: 17px;
+     background:url("../images/front.png") no-repeat ;
+ }
+.top .top_r .enrol{
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 12px;
+    height: 12px;
+}
+.top .top_r .enrol a{
+    background: url("../images/enrol1.png") no-repeat right center;
+    padding-right: 14px;
+    font-size: 11px;
+}
+.top .top_r .ainput{
+    margin-top: 12px;
+    position: relative;
+}
+.top .top_r .ainput>a{
+    position: absolute;
+    padding: 0 6px;
+    left: 174px;
+    top: 62px;
+    text-decoration:none;
+    opacity: 0;
+}
+.top .top_r .ainput input{
+    height: 34px;
+    width: 240px;
+    border: 1px solid #aaaaaa;
+}
+.top .top_r .ainput span{
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
+.top .top_r .ainput .txt{
+
+    background: url("../images/login-box2.png") no-repeat 5px center;
+    padding-left: 28px;
+}
+.top .top_r .ainput .txt2{
+
+    background: url("../images/login-box3.png") no-repeat 5px center;
+    padding-left: 28px;
+}
+.top .top_r .ainput .pwd{
+    margin-top: 16px;
+    background: url("../images/login-box1.png") no-repeat 5px center;
+    padding-left: 28px;
+}
+.top .top_r .use{
+    margin-top: 10px;
+    height: 14px;
+    line-height: 14px;
+}
+.top .top_r .use u{
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    border: 1px solid #d0d0d0;
+    cursor:default;
+}
+.top .top_r .use span{
+    cursor:default;
+}
+.top .top_r .use a{
+    color: #52bcaf;
+}
+
+.top .top_r .btn{
+    font-size: 14px;
+    font-weight: bold;
+    width:270px;
+    border-radius: 2px;
+    border-style: none;
+    margin-top: 18px;
+    background: #2ebcae;
+    color:#ffffff ;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}
+.top .top_r .login{
+    line-height: 12px;
+    margin-top: 12px;
+}
+.top .top_r .login p{
+    color: #666666;
+}
+.top .top_r .login .sy{
+    line-height:18px;
+    color: #a9a9a9;
+    font-size: 11px;
+}
+.top .top_r .login p a{
+    color: #52bcaf;
+}
+.top .top_r .concur{
+    margin-top: 25px;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.top .top_r .concur span{
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    background: #fff;
+    font-size: 14px;
+}
+.top .top_r .concur u{
+    margin-top: 30px;
+    width: 18px;
+    height: 18px;
+}
+.top .top_r .concur .qq{
+    background: url("../images/6.png") no-repeat;
+    margin-left:95px ;
+}
+.top .top_r .concur .sl{
+    background: url("../images/6.png") no-repeat 0px -107px;
+    margin-left:15px;
+}
+.mid{
+    margin-top: 75px;
+    height: 48px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+/*登录框结束*/
+/*底部导航开始*/
+.mid ul li,.mid ul span{
+    line-height: 50px;
+    float: left;
+    color: #9f9f9f;
+    font-size: 11px;
+    
+}
+.mid ul span{
+    margin:0 15px ;
+    color: #eee;
+}
+.mid ul{
+    font-size: 11px;
+}
+.mid p{
+    cursor:pointer;
+    margin-top: 12px;
+    margin-right: 116px;
+    width: 276px;
+    height: 24px;
+    background: url("../images/footer-commitment.png");
+}
+/*底部导航结束*/
+.down{
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9c9f9f;
+}

@@ -1,0 +1,56 @@
+/*存在一些通用的样式*/
+/* css的初始化 begin */
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, input, dt, dl, dd, ol {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666666;
+}
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	outline: none;/*去掉获得焦点时的外边框*/
+}
+button {
+	outline: none;
+}
+body {
+	background-color: #ffffff;
+	color: #666666;
+	font: normal normal 12px "Hiragino Sans GB","WenQuanYi Micro Hei",tahoma,sans-serif;
+}
+b, u, s, i, em {
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+/* css的初始化 end */
+/* css 通用样式 begin*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+/*.bx {
+	width: 1170px;
+	margin: 0 auto;
+}*/
+/* css 通用样式 end*/

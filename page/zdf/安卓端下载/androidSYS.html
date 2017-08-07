@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美团android手机端</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/kuozhan.css"/>
+    <link rel="icon" href="images/ico.ico"/>
+</head>
+<body style="opacity: 1">
+<!--画布-->
+<canvas id="canvas" width="1980px" height="900px" style="margin: 0px auto;display: block;background-color: transparent"></canvas>
+<!--top-->
+<div class="top">
+    <a href="#">
+        <img src="images/title_meituan.png" alt="1"/>
+    </a>
+    <div class="menu">
+        <span>Android</span>
+        <span>iPhone</span>
+        <span>iPad</span>
+        <span>WP8/Win8</span>
+        <span>手机网页版</span>
+    </div>
+</div>
+<!--dian-->
+<div class="dian">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<!--page-->
+<div class="page page1 fl">
+    <!-- 特效图1-->
+    <div id="wheel_div">
+        <img src="images/wheel-1.png" alt="1" id="wheel-1" style="transform:rotate(0deg);"/>
+        <img src="images/wheel-2.png" alt="2" id="wheel-2" style="transform:rotate(0deg);"/>
+        <div id="wheel-3_div" style="transform:rotate(0deg);"><img src="images/wheel-3.png" alt="3" id="wheel-3" style="transform:rotate(0deg);"/></div>
+        <div id="wheel-4_div" style="transform:rotate(0deg);"><img src="images/wheel-4.png" alt="4" id="wheel-4" style="transform:rotate(0deg);"/></div>
+        <img src="images/ph1.png" alt="ph1" id="ph1" style="transform:rotate(0deg);"/>
+        <img src="images/cl.png" alt="cl" id="cl_mask" style="transform:rotate(0deg);"/>
+    </div>
+</div>
+<div class="page page2 fl">
+    <!-- 特效图2-->
+    <div id="ditu">
+        <img src="images/cloud.png" alt="cloud" id="cloud"/>
+        <img src="images/nail.png" alt="nail" id="nail"/>
+        <img src="images/map.png" alt="map" id="map"/>
+    </div>
+</div>
+<div class="page page3 fl">
+    <!-- 特效图3-->
+    <div id="seller_loc">
+        <img src="images/fun.png" alt="fun" id="fun"/>
+        <img src="images/shop.png" alt="shop" id="shop"/>
+        <img src="images/v-phone.png" alt="v-phone" id="v-phone"/>
+    </div>
+</div>
+<div class="page page4 fl">
+    <!--特效图3 -->
+    <div id="gift">
+        <img src="images/ballon.png" alt="ballon" id="ballon"/>
+        <div id="phone_1" style="transform:rotate(0deg);">
+            <img src="images/phone_1.png" alt="phone_1" />
+        </div>
+        <img src="images/phone_2.png" alt="phone_2" id="phone_2"/>
+        <img src="images/gift_1.png" alt="gift_1" id="gift_1"/>
+        <img src="images/gift_2.png" alt="gift_2" id="gift_2"/>
+    </div>
+</div>
+<!--onload(手机端下载)-->
+<div class="onload">
+    <div class="onload_top"></div>
+    <div class="onload_bottom">
+        <div class="onload_bottom_t"></div>
+        <div class="onload_bottom_b"></div>
+    </div>
+</div>
+
+</body>
+<script src="js/common.js"></script>
+<script src="js/kuozhan.js"></script>
+</html>

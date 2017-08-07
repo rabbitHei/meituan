@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美团网</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/logo_search.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/flash_sale.css"/>
+    <link rel="stylesheet" href="css/group-list.css"/>
+    <link rel="stylesheet" href="css/elevator.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="iconfont/iconfont.css"/>
+    <link rel="icon" href="images/ico.ico"/>
+</head>
+<body>
+<!-- 头部 -->
+<div class="top">
+    <div class="bx">
+        <ul class="fl">
+            <li class="enshrine">
+                <a id="enshrineMT" href="javascript:;">
+                    <i class="iconfont">&#xe608;</i>
+                    <span>收藏美团</span>
+                </a>
+            </li>
+            <li class="login">
+                <a href="page/enrol.html" target="_blank">登录</a>
+                <a href="page/zhuce.html" target="_blank">注册</a>
+            </li>
+        </ul>
+        <ul class="fr" id="top_list">
+            <li><a href="javascript:;">我的订单</a></li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>我的美团</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 80px;">
+                    <li><a href="javascript:;">我的订单</a></li>
+                    <li><a href="javascript:;">我的评价</a></li>
+                    <li><a href="javascript:;">我的收藏</a></li>
+                    <li><a href="javascript:;">抵用券</a></li>
+                    <li><a href="javascript:;">账户余额</a></li>
+                    <li><a href="javascript:;">我的设置</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>最近浏览</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 100px;">
+                    <li><a href="javascript:;">暂无浏览记录</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>联系客服</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 90px;">
+                    <li><a href="javascript:;">申请退款</a></li>
+                    <li><a href="javascript:;">申请退换货</a></li>
+                    <li><a href="javascript:;">查看美团券</a></li>
+                    <li><a href="javascript:;">换绑手机号</a></li>
+                    <li><a href="javascript:;">常见问题</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>我是商家</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 100px;">
+                    <li><a href="javascript:;">登录商家中心</a></li>
+                    <li><a href="javascript:;">我想合作</a></li>
+                    <li><a href="javascript:;">手机免费开店</a></li>
+                    <li><a href="javascript:;">商家营销平台</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>代理商招募</span>
+                    <b class="triangle"></b>
+                    <i class="vertical-line"></i>
+                </a>
+                <ul class="down_list" style="width: 120px;">
+                    <li><a href="javascript:;">餐饮代理商招募</a></li>
+                    <li><a href="javascript:;">非餐饮代理商招募</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="common" href="javascript:;">
+                    <span>更多</span>
+                    <b class="triangle"></b>
+                </a>
+                <ul class="down_list" style="width: 80px;">
+                    <li><a href="page/zdf/客户端选择/chooseSYS.html" target="_blank">客户端</a></li>
+                    <li><a href="page/zdf/美团直播/zhibo.html" target="_blank">户外直播</a></li>
+                    <li><a href="javascript:;">邀请好友</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- logo与搜索 -->
+<div class="logo_search bx">
+    <h1 class="fl logo">
+        <a href="javascript:;">美团网</a>
+    </h1>
+
+    <div class="fl city">
+        <h2>
+            <a class="now_city" href="javascript:;">上海</a>
+        </h2>
+
+        <div>
+            <a class="change_city" href="城市选择/page/城市选择.html" target="_blank">切换城市</a>
+        </div>
+    </div>
+    <div class="fl search">
+        <div class="search_box">
+            <div class="fl choose" id="choose">
+                <ul>
+                    <li>团购</li>
+                    <li>商家</li>
+                </ul>
+                <b class="triangle"></b>
+            </div>
+            <input class="fl" id="search_text" type="text" placeholder="请输入商品名称、地址等">
+            <input type="button" value="搜索">
+        </div>
+        <div class="hot_word">
+            <ul>
+                <li><a href="javascript:;">鸡排</a></li>
+                <li><a href="javascript:;">蛋糕</a></li>
+                <li><a href="javascript:;">自助</a></li>
+                <li><a href="javascript:;">味多美</a></li>
+                <li><a href="javascript:;">小南国</a></li>
+                <li><a href="javascript:;">江南村酒家</a></li>
+                <li><a href="javascript:;">烤肉</a></li>
+                <li><a href="javascript:;">椒往</a></li>
+                <li><a href="javascript:;">火锅</a></li>
+                <li><a href="javascript:;">龙虾</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fr commitment">
+        <a id="commitment_a" href="page/首页跳转页面1.html" target="_blank">
+				<span>
+					<i class="tui"></i>
+					<span>随时退</span>
+				</span>
+				<span>
+					<i class="gou"></i>
+					<span>不满意免单</span>
+				</span>
+				<span>
+					<i class="qian"></i>
+					<span>过期退</span>
+				</span>
+        </a>
+    </div>
+</div>
+<!--导航条-->
+<div class="nav">
+    <div class="nav_bx bx">
+        <div class="all_kind fl">全部分类</div>
+        <div class="nav_right fl">
+            <ul>
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="page/jrxd.html" target="_blank">今日新单</a></li>
+                <li><a href="javascript:;">美食</a></li>
+                <li><a href="javascript:;">身边外卖</a></li>
+                <li><a href="javascript:;">名店抢购</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav_down bx">
+        <div class="kind fl">
+            <ul id="kind_ul">
+                <li>
+                    <a href="javascript:;">美食</a>
+                    <span class="fr">
+                        <a href="javascript:;">自助餐</a>
+                        <a href="javascript:;">代金券</a>
+                        <a href="javascript:;">&gt;</a>
+                    </span>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">美食</a></h4>
+                        <ul class="one">
+                            <li><a href="javascript:;">代金券</a></li>
+                            <li><a href="javascript:;">甜点饮品</a></li>
+                            <li><a href="javascript:;" class="current">火锅</a></li>
+                            <li><a href="javascript:;" class="current">自助餐</a></li>
+                            <li><a href="javascript:;">小吃快餐</a></li>
+                            <li><a href="javascript:;">日韩料理</a></li>
+                            <li><a href="javascript:;">西餐</a></li>
+                            <li><a href="javascript:;">聚餐宴请</a></li>
+                            <li><a href="javascript:;">烧烤烤肉</a></li>
+                            <li><a href="javascript:;">东北菜</a></li>
+                            <li><a href="javascript:;">川湘菜</a></li>
+                            <li><a href="javascript:;">江浙菜</a></li>
+                            <li><a href="javascript:;">香锅烤鱼</a></li>
+                        </ul>
+                        <ul class="two">
+                            <li><a href="javascript:;">粤港菜</a></li>
+                            <li><a href="javascript:;">京菜鲁菜</a></li>
+                            <li><a href="javascript:;">咖啡酒吧茶馆</a></li>
+                            <li><a href="javascript:;">云贵菜</a></li>
+                            <li><a href="javascript:;">东南亚菜</a></li>
+                            <li><a href="javascript:;">海鲜</a></li>
+                            <li><a href="javascript:;">素食</a></li>
+                            <li><a href="javascript:;">台湾/客家菜</a></li>
+                            <li><a href="javascript:;">创意菜</a></li>
+                            <li><a href="javascript:;">汤/粥/炖菜</a></li>
+                            <li><a href="javascript:;">其他美食</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">酒店</a>
+                    <b>/</b>
+                    <a href="javascript:;">客栈</a>
+                    <span class="fr">
+                        <a href="javascript:;">经济型酒店</a>
+                        <a href="javascript:;">&gt;</a>
+                    </span>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">酒店</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">经济型酒店</a></li>
+                            <li><a href="javascript:;">主题酒店</a></li>
+                            <li><a href="javascript:;">度假酒店/度假村</a></li>
+                            <li><a href="javascript:;">公寓型酒店</a></li>
+                            <li><a href="javascript:;">客栈</a></li>
+                            <li><a href="javascript:;">青年旅社</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">猫眼电影</a>
+                    <b>/</b>
+                    <a href="javascript:;">在线选座</a>
+                    <span class="fr">
+                        <a href="javascript:;">&gt;</a>
+                    </span>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">当前热映</a></h4>
+                        <ul class="one">
+                            <li><a href="javascript:;">银河护卫队2</a></li>
+                            <li><a href="javascript:;">拆弹·专家</a></li>
+                            <li><a href="javascript:;">速度与激情8</a></li>
+                            <li><a href="javascript:;" class="current">摔跤吧！爸爸</a></li>
+                            <li><a href="javascript:;">超凡战队</a></li>
+                            <li><a href="javascript:;">麻烦家族</a></li>
+                            <li><a href="javascript:;">春娇救志明</a></li>
+                            <li><a href="javascript:;">记忆大师</a></li>
+                            <li><a href="javascript:;">异星觉醒</a></li>
+                            <li><a href="javascript:;">加勒比海盗5：死...</a></li>
+                        </ul>
+                        <ul class="two">
+                            <li><a href="javascript:;">星空影城</a></li>
+                            <li><a href="javascript:;">星美国际影城</a></li>
+                            <li><a href="javascript:;">美亚影城</a></li>
+                            <li><a href="javascript:;" class="current">万达影城</a></li>
+                            <li><a href="javascript:;">中影国际影城</a></li>
+                            <li><a href="javascript:;">上影国际影城</a></li>
+                            <li><a href="javascript:;">万宇国际影城</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">KTV</a>
+
+                    <div class="youbian fl"></div>
+                </li>
+                <li>
+                    <a href="javascript:;">休闲娱乐</a>
+                    <span class="fr">
+                        <a href="javascript:;">足疗按摩</a>
+                        <a href="javascript:;">温泉</a>
+                        <a href="javascript:;">&gt;</a>
+                    </span>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">休闲娱乐</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">KTV</a></li>
+                            <li><a href="javascript:;">更多休闲娱乐</a></li>
+                            <li><a href="javascript:;">运动健身</a></li>
+                            <li><a href="javascript:;">私人影院</a></li>
+                            <li><a href="javascript:;">足疗按摩</a></li>
+                            <li><a href="javascript:;">洗浴/汗蒸</a></li>
+                            <li><a href="javascript:;">中医养生</a></li>
+                            <li><a href="javascript:;">桌游</a></li>
+                            <li><a href="javascript:;">温泉</a></li>
+                            <li><a href="javascript:;">DIY手工坊</a></li>
+                            <li><a href="javascript:;">密室逃脱</a></li>
+                            <li><a href="javascript:;">酒吧</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">周边游</a>
+                    <b>/</b>
+                    <a href="javascript:;">旅游</a>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">周边游</a></h4>
+                        <ul>
+                            <li><a href="javascript:;">温泉</a></li>
+                            <li><a href="javascript:;">景点</a></li>
+                            <li><a href="javascript:;" class="current">主题公园</a></li>
+                            <li><a href="javascript:;">水上乐园</a></li>
+                            <li><a href="javascript:;">动植物园</a></li>
+                            <li><a href="javascript:;">海洋馆</a></li>
+                            <li><a href="javascript:;">展览馆</a></li>
+                            <li><a href="javascript:;">游船</a></li>
+                            <li><a href="javascript:;">高空观景</a></li>
+                            <li><a href="javascript:;">单车出租</a></li>
+                            <li><a href="javascript:;">农家乐</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">生活服务</a>
+                    <span class="fr">
+                        <a href="javascript:;">婚纱摄影</a>
+                        <a href="javascript:;">个人写真</a>
+                        <a href="javascript:;">&gt;</a>
+                    </span>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">生活服务</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">婚纱摄影</a></li>
+                            <li><a href="javascript:;" class="current">个性写真</a></li>
+                            <li><a href="javascript:;">亲子摄影</a></li>
+                            <li><a href="javascript:;">其他摄影</a></li>
+                            <li><a href="javascript:;">培训课程</a></li>
+                            <li><a href="javascript:;">其他生活</a></li>
+                            <li><a href="javascript:;">汽车服务</a></li>
+                            <li><a href="javascript:;">体检/齿科</a></li>
+                            <li><a href="javascript:;">衣物/皮具洗护</a></li>
+                            <li><a href="javascript:;">鲜花</a></li>
+                            <li><a href="javascript:;">母婴亲子</a></li>
+                            <li><a href="javascript:;">配镜</a></li>
+                            <li><a href="javascript:;">照片冲印</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">丽人</a>
+                    <span class="fr">
+                        <a href="javascript:;">美发</a>
+                        <a href="javascript:;">美甲美睫</a>
+                        <a href="javascript:;">&gt;</a>
+                    </span>
+
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">丽人</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">美发</a></li>
+                            <li><a href="javascript:;">美容美体</a></li>
+                            <li><a href="javascript:;">美甲美睫</a></li>
+                            <li><a href="javascript:;">瑜伽舞蹈</a></li>
+                            <li><a href="javascript:;">瘦身纤体</a></li>
+                            <li><a href="javascript:;">韩式定妆</a></li>
+                            <li><a href="javascript:;">祛痘</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">今日新单</a>
+
+                    <div class="youbian9 fl"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="lunbo fl">
+            <div class="hot_tuangou lunbo_common">
+                <b class="fl iconfont">
+                    &#xe643;
+                </b>
+                <span class="fl">热门团购</span>
+                <ul class="fl">
+                    <li><a href="javascript:;">小吃快餐</a></li>
+                    <li><a class="special" href="javascript:;">自助餐</a></li>
+                    <li><a href="javascript:;">聚餐宴请</a></li>
+                    <li><a class="special" href="javascript:;">火锅</a></li>
+                    <li><a href="javascript:;">江浙菜</a></li>
+                    <li><a href="javascript:;">海鲜</a></li>
+                    <li><a href="javascript:;">烧烤烤肉</a></li>
+                    <li><a href="javascript:;">甜点饮品</a></li>
+                    <li><a href="javascript:;">西餐</a></li>
+                </ul>
+            </div>
+            <div class="all_quyu lunbo_common">
+                <b class="fl iconfont">
+                    &#xe603;
+                </b>
+                <span class="fl">全部区域</span>
+                <ul class="fl">
+                    <li><a href="javascript:;">浦东新区</a></li>
+                    <li><a href="javascript:;">徐汇区</a></li>
+                    <li><a href="javascript:;">长宁区</a></li>
+                    <li><a href="javascript:;">黄浦区</a></li>
+                    <li><a href="javascript:;">静安区</a></li>
+                    <li><a href="javascript:;">闵行区</a></li>
+                    <li><a href="javascript:;">卢湾区</a></li>
+                    <li><a href="javascript:;">杨浦区</a></li>
+                    <li><a href="javascript:;">普陀区</a></li>
+                </ul>
+                <a href="javascript:;" class="more fr">更多</a>
+            </div>
+            <div class="hot_shangquan lunbo_common">
+                <b class="fl iconfont">
+                    &#xe62c;
+                </b>
+                <span class="fl">热门商场</span>
+                <ul class="fl">
+                    <li><a href="javascript:;">人民广场</a></li>
+                    <li><a href="javascript:;">五角场/大学区</a></li>
+                    <li><a href="javascript:;">陆家嘴</a></li>
+                    <li><a href="javascript:;">迪士尼</a></li>
+                    <li><a href="javascript:;">人民广场/南京路</a></li>
+                    <li><a href="javascript:;">金桥</a></li>
+                </ul>
+            </div>
+            <div class="lbt" id="nav_lbt">
+                <div class="lbt_l fl">
+                    <div class="lbt_l_box">
+
+                    </div>
+                </div>
+                <div class="lbt_r fr">
+                    <div class="lbt_r_box">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ewm_dayNew fr">
+            <div class="ewm"></div>
+            <div class="dayNew">
+                <h6><a href="javascript:;">每日上新</a></h6>
+
+                <p><a href="javascript:;">吃喝玩乐最低价</a></p>
+                <a href="javascript:;">
+                    <img src="images/pic1.png" alt=""/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--限时抢购-->
+<div class="flash_sale" id="flash_sale">
+    <div class="flash_sale_bx bx">
+        <div class="count_down">
+            <a class="fl" href="javascript:;">
+                <img src="images/qg.png" alt=""/>
+            </a>
+
+            <div class="count_down_time fl" id="count_down_time">
+                <img class="jxz" src="images/jxz.png" alt=""/>
+                <span>2</span>
+                <span>3</span>
+                <b>:</b>
+                <span>5</span>
+                <span>9</span>
+                <b>:</b>
+                <span>5</span>
+                <span>9</span>
+            </div>
+        </div>
+        <div class="goods_list">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/count_down1.png" alt=""/>
+                    </a>
+                    <h6>
+                        <a href="javascript:;">【36店通用】新石器烤肉</a>
+                    </h6>
+
+                    <p>
+                        <strong class="fl">￥100</strong>
+                        <span class="fr">已售30683</span>
+                    </p>
+
+                    <div>
+                        <p>
+                            <span>手机购买立减￥20</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/count_down2.png" alt=""/>
+                    </a>
+                    <h6>
+                        <a href="javascript:;">【奉贤区】阳之光自助烤肉寿司</a>
+                    </h6>
+
+                    <p>
+                        <strong class="fl">￥63</strong>
+                        <span class="fr">已售42267</span>
+                    </p>
+
+                    <div>
+                        <p>
+                            <span>手机购买立减￥7</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/count_down3.png" alt=""/>
+                    </a>
+                    <h6>
+                        <a href="javascript:;">【开元地中海】金狮蓝蒂海鲜自助餐</a>
+                    </h6>
+
+                    <p>
+                        <strong class="fl">￥119</strong>
+                        <span class="fr">已售13631</span>
+                    </p>
+
+                    <div>
+                        <p>
+                            <span>手机购买立减￥20</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/count_down4.png" alt=""/>
+                    </a>
+                    <h6>
+                        <a href="javascript:;">【陆家嘴】海伦多海鲜自助餐厅</a>
+                    </h6>
+
+                    <p>
+                        <strong class="fl">￥139</strong>
+                        <span class="fr">已售5724</span>
+                    </p>
+
+                    <div>
+                        <p>
+                            <span>手机购买立减￥14</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/count_down5.png" alt=""/>
+                    </a>
+                    <h6>
+                        <a href="javascript:;">【2店通用】上海圣淘沙万怡酒店</a>
+                    </h6>
+
+                    <p>
+                        <strong class="fl">￥148</strong>
+                        <span class="fr">已售3975</span>
+                    </p>
+
+                    <div>
+                        <p>
+                            <span>手机购买立减￥10</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--团购列表-->
+<div class="group-list" id="group_list">
+    <div class="group-list_bx">
+        <div class="cate group-list_common" id="cate">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/meishi.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">美食</a></li>
+                    <li><a href="javascript:;">代金券</a></li>
+                    <li><a href="javascript:;">自助餐</a></li>
+                    <li><a href="javascript:;">火锅</a></li>
+                    <li><a href="javascript:;">烧烤烤肉</a></li>
+                    <li><a href="javascript:;">香锅烤鱼</a></li>
+                    <li><a href="javascript:;">西餐</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms1.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms2.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms3.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms4.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms5.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms6.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms7.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ms8.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="entertainment group-list_common" id="entertainment">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/xiuxian.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">休闲娱乐</a></li>
+                    <li><a href="javascript:;">运动健身</a></li>
+                    <li><a href="javascript:;">足疗按摩</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/xx2.png" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/xx3.png" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/xx4.png" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/xx5.png" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maoyan_movie group-list_common" id="maoyan_movie">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/dianying.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">猫眼电影</a></li>
+                    <li><a href="javascript:;">电影票团购</a></li>
+                    <li><a href="javascript:;">电影院</a></li>
+                    <li><a href="javascript:;">在线选座</a></li>
+                    <li><a href="javascript:;">最新电影</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/dy3.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/dy5.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/dy6.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/dy8.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grogshop group-list_common" id="grogshop">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/jiudian.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">酒店</a></li>
+                    <li><a href="javascript:;">经济型酒店</a></li>
+                    <li><a href="javascript:;">主题酒店</a></li>
+                    <li><a href="javascript:;">豪华酒店</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/jd1.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/jd2.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/jd3.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/jd4.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service_life group-list_common" id="service_life">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/shenghuo.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">生活服务</a></li>
+                    <li><a href="javascript:;">培训课程</a></li>
+                    <li><a href="javascript:;">母婴亲子</a></li>
+                    <li><a href="javascript:;">配镜</a></li>
+                    <li><a href="javascript:;">其他摄影</a></li>
+                    <li><a href="javascript:;">体检/齿科</a></li>
+                    <li><a href="javascript:;">汽车服务</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/sh1.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/sh2.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/sh3.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/sh4.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="beauty group-list_common" id="beauty">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/liren.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">丽人</a></li>
+                    <li><a href="javascript:;">美发</a></li>
+                    <li><a href="javascript:;">瑜伽舞蹈</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/lr1.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/lr2.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/lr3.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/lr4.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="travel group-list_common" id="travel">
+            <div class="group-list_head_common">
+                <a href="javascript:;">
+                    <img src="images/lvyou.png" alt=""/>
+                </a>
+                <ul class="fr">
+                    <li><a href="javascript:;">旅游</a></li>
+                    <li><a href="javascript:;">景点门票</a></li>
+                    <li><a href="javascript:;">国内游</a></li>
+                    <li><a href="javascript:;">境外游</a></li>
+                    <li><a href="javascript:;">全部&gt;</a></li>
+                </ul>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly1.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly2.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly3.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly4.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-list_commodity_common">
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly5.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly6.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly7.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/ly8.jpg" alt=""/>
+                    </a>
+
+                    <h3>
+                        <a href="javascript:;">
+                            <span>【5店通用】多伦多海鲜自助餐厅</span>
+                            <span>自助午餐/自助午餐2选1</span>
+                        </a>
+                    </h3>
+
+                    <p>
+                        <strong>￥79</strong>
+                        <b>门店价</b>
+                        <del>￥99</del>
+                        <span>已售121731</span>
+                    </p>
+                    <div>
+                        <p>
+                            <a href="javascript:;">
+                            <span>
+                                <span></span>
+                            </span>
+                                <span>3333人评价</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--左侧条-->
+    <div class="elevator" id="elevator">
+        <ul class="elevator_ul">
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe610;</span>
+                    <span>美食</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe671;</span>
+                    <span>休闲娱乐</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe680;</span>
+                    <span>猫眼电影</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe611;</span>
+                    <span>酒店</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe60e;</span>
+                    <span>生活服务</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe606;</span>
+                    <span>丽人</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe624;</span>
+                    <span>旅游</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--底部-->
+<div class="bottom">
+    <div class="f_bottom bx">
+        <!-- 1 -->
+        <div class="listD fl">
+            <h3>获取更新</h3>
+            <ul>
+                <li><a href="#">邮件订阅</a></li>
+                <li><a href="#">iPhone/Android</a></li>
+                <li><a href="#">美团QQ空间</a></li>
+                <li><a href="#">美团新浪微博</a></li>
+                <li><a href="#">sitemap</a></li>
+                <li><a href="#">RSS订阅</a></li>
+            </ul>
+        </div>
+        <!-- 2 -->
+        <div class="listD fl">
+            <h3>商务合作</h3>
+            <ul>
+                <li><a href="#">商家合作</a></li>
+                <li><a href="#">美团商家营销平台</a></li>
+                <li><a href="#">到店餐饮代理商招募</a></li>
+                <li><a href="#">市场合作</a></li>
+                <li><a href="#">美团联盟</a></li>
+                <li><a href="#">美团云</a></li>
+                <li><a href="#">廉正邮箱</a></li>
+                <li><a href="#">聚宝盆餐饮开放平台</a></li>
+                <li><a href="#">美团点评智能收银机</a></li>
+            </ul>
+        </div>
+        <!-- 3 -->
+        <div class="listD fl">
+            <h3>公司信息</h3>
+            <ul>
+                <li><a href="#">关于美团</a></li>
+                <li><a href="#">美团承诺</a></li>
+                <li><a href="#">媒体报道</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">用户协议</a></li>
+                <li><a href="#">商户服务协议</a></li>
+                <li><a href="#">美团点评餐饮安全管理办法</a></li>
+                <li><a href="#">营业执照</a></li>
+            </ul>
+        </div>
+        <!-- 4 -->
+        <div class="listD fl">
+            <h3>用户帮助</h3>
+            <ul>
+                <li><a href="#">申请退款</a></li>
+                <li><a href="#">查看美团券密码</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">开放API</a></li>
+                <li><a href="#">反诈骗公告p</a></li>
+            </ul>
+        </div>
+        <!--右边的客服电话div-->
+        <div class="serviceD fr">
+            <div class="phonenum">
+                <span class="kf_pic"></span>
+                <span class="kf">客服电话</span><br>
+                <span class="num">10107888</span>
+                <span class="time">(9:00-23:00)</span>
+            </div>
+            <div class="back">
+                <span>退款、退换货、查看美团券</span><br>
+		        	<span>
+		        		<a href="#">参考教程，轻松搞定!</a>
+		        	</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p class="reg"> &copy;2017 <a href="#">美团网团购 </a> meituan.com <a href="#">京ICP证070791号 </a> | <a href="#">京ICP备10211739号</a>
+        | <a href="#">电子公告服务规则</a></p>
+
+    <p class="licence"><a href="#">广播电视节目制作经营许可证（京）字第03889号</a></p>
+
+    <p class="copyright_num">
+        <a href="#"><img src="images/saved_resource(19)" alt="">京公网安备11010502025545号</a></p>
+
+    <p class="pics">
+        <a href="#"><img src="images/pic_connect1.png" alt=""></a>
+        <a href="#"><img src="images/pic_connect2.png" alt=""></a>
+        <a href="#"><img src="images/pic_connect3.png" alt=""></a>
+        <a href="#"><img src="images/pic_connect4.png" alt=""></a>
+    </p>
+</div>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</html>

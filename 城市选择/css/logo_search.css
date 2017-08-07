@@ -1,0 +1,184 @@
+/*logo*/
+.logo_search {
+    height: 105px;
+}
+
+.logo_search .logo a {
+    display: block;
+    width: 82px;
+    height: 54px;
+    background: url(../images/tag.png) no-repeat 0 -896px;
+    color: transparent;
+    margin-top: 21px;
+}
+
+/*城市切换*/
+.logo_search .city {
+    width: 123px;
+    margin: 24px 0 0 10px;
+    line-height: 1.5;
+}
+
+.logo_search .city .now_city {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.logo_search .city .change_city {
+    border: 1px solid #eeeeee;
+    padding: 2px 5px;
+    color: #999999;
+    line-height: 20px;
+}
+
+.logo_search .city .change_city:hover {
+    color: #2bb8aa;
+}
+
+/*搜索框*/
+.logo_search .search {
+    width: 490px;
+    margin: 21px 0 0 20px;
+}
+
+.logo_search .search .search_box {
+    height: 42px;
+    background-color: #2db8ad;
+    position: relative;
+}
+
+.logo_search .search .search_box .choose {
+    width: 63px;
+    background-color: #fff;
+    border: 2px solid #2db8ad;
+    border-right: none;
+    position: relative;
+}
+
+.logo_search .search .search_box ul {
+    width: 63px;
+    height: 38px;
+    border-right: 1px solid #dddddd;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+}
+
+.logo_search .search .search_box ul.mouseover {
+    width: 62px;
+    height: auto;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+.logo_search .search .search_box li {
+    padding: 3px 20px 3px 14px;
+    font-size: 14px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.logo_search .search .search_box li:hover {
+    background-color: #f9f9f9;
+}
+
+/*三角形*/
+.logo_search .search .search_box .triangle {
+    position: absolute;
+    right: 8px;
+    top: 17px;
+    border: 3px solid;
+    border-color: #666666 transparent transparent transparent;
+}
+
+/*蓝色三角形*/
+.logo_search .search .search_box .triangle_blue {
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    border: 3px solid;
+    border-color: transparent transparent #2bb8aa transparent;
+}
+
+.logo_search .search .search_box input[type="text"] {
+    border: none;
+    padding: 6px 5px;
+    width: 348px;
+    height: 26px;
+    border-top: 2px solid #2db8ad;
+    border-bottom: 2px solid #2db8ad;
+
+}
+
+.logo_search .search .search_box input[type="button"] {
+    width: 65px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background-color: #2bb8aa;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo_search .search .search_box input[type="button"]:hover {
+    background-color: #00c3b0;
+}
+
+/*热词*/
+.logo_search .search .hot_word {
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.logo_search .search .hot_word li {
+    float: left;
+}
+
+.logo_search .search .hot_word li a {
+    padding: 0 10px;
+}
+
+.logo_search .search .hot_word li a:hover {
+    text-decoration: underline;
+    color: #2bb8aa;
+}
+
+.logo_search .search .hot_word li:nth-child(1) a {
+    padding: 0 10px 0 0;
+}
+
+/*退款免单保证*/
+.logo_search .commitment {
+    margin-top: 29px;
+    line-height: 1.5;
+}
+
+.logo_search .commitment a > span {
+    float: left;
+    margin-left: 20px;
+    height: 42px;
+    color: #999999;
+}
+
+.logo_search .commitment a span i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.logo_search .commitment a span:nth-child(1) i {
+    background: url(../images/tui.png);
+}
+
+.logo_search .commitment a span:nth-child(2) i {
+    background: url(../images/gou.png);
+}
+
+.logo_search .commitment a span:nth-child(3) i {
+    background: url(../images/tui1.png);
+}

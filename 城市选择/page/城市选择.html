@@ -1,0 +1,1900 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>切换城市</title>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/城市选择.css">
+    <link rel="stylesheet" href="../css/导航栏.css"/>
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/iconfont1/iconfont.css">
+    <link rel="stylesheet" href="../css/top.css"/>
+    <link rel="stylesheet" href="../css/logo_search.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <script src="../js/省市选择.js"></script>
+    <script src="../js/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div class="header">
+    
+    <div class="top ">
+        <div class="header-top center">
+                <ul class="fl">
+                    <li class="enshrine">
+                        <a id="enshrineMT" href="javascript:;">
+                            <i class="iconfont">&#xe608;</i>
+                            <span>收藏美团</span>
+                        </a>
+                    </li>
+                    <li class="login">
+                        <a href="javascript:;">登录</a>
+                        <a href="javascript:;">注册</a>
+                    </li>
+                </ul>
+                <ul class="fr" id="top_list">
+                    <li><a href="javascript:;">我的订单</a></li>
+                    <li>
+                        <a class="common" href="javascript:;">
+                            <span>我的美团</span>
+                            <b class="triangle"></b>
+                            <i class="vertical-line"></i>
+                        </a>
+                        <ul class="down_list" style="width: 80px;">
+                            <li><a href="javascript:;">我的订单</a></li>
+                            <li><a href="javascript:;">我的评价</a></li>
+                            <li><a href="javascript:;">我的收藏</a></li>
+                            <li><a href="javascript:;">抵用券</a></li>
+                            <li><a href="javascript:;">账户余额</a></li>
+                            <li><a href="javascript:;">我的设置</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="common" href="javascript:;">
+                            <span>最近浏览</span>
+                            <b class="triangle"></b>
+                            <i class="vertical-line"></i>
+                        </a>
+                        <ul class="down_list" style="width: 100px;">
+                            <li><a href="javascript:;">暂无浏览记录</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="common" href="javascript:;">
+                            <span>联系客服</span>
+                            <b class="triangle"></b>
+                            <i class="vertical-line"></i>
+                        </a>
+                        <ul class="down_list" style="width: 90px;">
+                            <li><a href="javascript:;">申请退款</a></li>
+                            <li><a href="javascript:;">申请退换货</a></li>
+                            <li><a href="javascript:;">查看美团券</a></li>
+                            <li><a href="javascript:;">换绑手机号</a></li>
+                            <li><a href="javascript:;">常见问题</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="common" href="javascript:;">
+                            <span>我是商家</span>
+                            <b class="triangle"></b>
+                            <i class="vertical-line"></i>
+                        </a>
+                        <ul class="down_list" style="width: 100px;">
+                            <li><a href="javascript:;">登录商家中心</a></li>
+                            <li><a href="javascript:;">我想合作</a></li>
+                            <li><a href="javascript:;">手机免费开店</a></li>
+                            <li><a href="javascript:;">商家营销平台</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="common" href="javascript:;">
+                            <span>代理商招募</span>
+                            <b class="triangle"></b>
+                            <i class="vertical-line"></i>
+                        </a>
+                        <ul class="down_list" style="width: 120px;">
+                            <li><a href="javascript:;">餐饮代理商招募</a></li>
+                            <li><a href="javascript:;">非餐饮代理商招募</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="common" href="javascript:;">
+                            <span>更多</span>
+                            <b class="triangle"></b>
+                        </a>
+                        <ul class="down_list" style="width: 80px;">
+                            <li><a href="javascript:;">手机版</a></li>
+                            <li><a href="javascript:;">邮件订阅</a></li>
+                            <li><a href="javascript:;">邀请好友</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+
+    </div>
+    <div class="header-search center">
+        <div class="logo_search">
+            <h1 class="fl logo">
+                <a href="javascript:;">美团网</a>
+            </h1>
+
+            <div class="fl city">
+                <h2>
+                    <a class="now_city" href="javascript:;">上海</a>
+                </h2>
+
+                <div>
+                    <a class="change_city" href="javascript:;">切换城市</a>
+                </div>
+            </div>
+            <div class="fl search">
+                <div class="search_box">
+                    <div class="fl choose" id="choose">
+                        <ul>
+                            <li>团购</li>
+                            <li>商家</li>
+                        </ul>
+                        <b class="triangle"></b>
+                    </div>
+                    <input class="fl" id="search_text" type="text" placeholder="请输入商品名称、地址等">
+                    <input type="button" value="搜索">
+                </div>
+                <div class="hot_word">
+                    <ul>
+                        <li><a href="javascript:;">鸡排</a></li>
+                        <li><a href="javascript:;">蛋糕</a></li>
+                        <li><a href="javascript:;">自助</a></li>
+                        <li><a href="javascript:;">味多美</a></li>
+                        <li><a href="javascript:;">小南国</a></li>
+                        <li><a href="javascript:;">江南村酒家</a></li>
+                        <li><a href="javascript:;">烤肉</a></li>
+                        <li><a href="javascript:;">椒往</a></li>
+                        <li><a href="javascript:;">火锅</a></li>
+                        <li><a href="javascript:;">龙虾</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fr commitment">
+                <a id="commitment_a" href="javascript:;">
+				<span>
+					<i class="tui"></i>
+					<span>随时退</span>
+				</span>
+				<span>
+					<i class="gou"></i>
+					<span>不满意免单</span>
+				</span>
+				<span>
+					<i class="qian"></i>
+					<span>过期退</span>
+				</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- 头部导航 -->
+    <div class="header-nav center">
+    	<div class="qbfl fl " id="qbfl">
+    		<span>全部分类</span>
+            <i class="iconfont" id="iconfont">&#xe605;</i>
+            <div class="daohangtiao">
+                <div class="zuobian fl">
+                    <ul class="daohang">
+                        <li>
+                            <h3><a href="javascript:;">美食</a></h3>
+                            <span>
+                  <a href="javascript:;">自助餐</a>
+                  <a href="javascript:;">代金券</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">酒店/客栈</a></h3>
+                            <span>
+                  <a href="javascript:;">经济型酒店</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">猫眼电影/在线选座</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">KTV</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">休闲娱乐</a></h3>
+                            <span>
+                  <a href="javascript:;">足疗按摩</a>
+                  <a href="javascript:;">温泉</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">周边游/旅游</a></h3>
+                            <span>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">生活服务</a></h3>
+                            <span>
+                  <a href="javascript:;">婚纱摄影</a>
+                  <a href="javascript:;">个性写真</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">丽人</a></h3>
+                            <span>
+                  <a href="javascript:;">美发</a>
+                  <a href="javascript:;">美甲美瞳</a>
+                  <i>&gt;</i>
+              </span>
+                        </li>
+                        <li>
+                            <h3><a href="javascript:;">今日新单</a></h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content1">
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">美食</a></h4>
+                        <ul class="one">
+                            <li><a href="javascript:;">代金券</a></li>
+                            <li><a href="javascript:;">甜点饮品</a></li>
+                            <li><a href="javascript:;" class="current">火锅</a></li>
+                            <li><a href="javascript:;" class="current">自助餐</a></li>
+                            <li><a href="javascript:;">小吃快餐</a></li>
+                            <li><a href="javascript:;">日韩料理</a></li>
+                            <li><a href="javascript:;">西餐</a></li>
+                            <li><a href="javascript:;">聚餐宴请</a></li>
+                            <li><a href="javascript:;">烧烤烤肉</a></li>
+                            <li><a href="javascript:;">东北菜</a></li>
+                            <li><a href="javascript:;">川湘菜</a></li>
+                            <li><a href="javascript:;">江浙菜</a></li>
+                            <li><a href="javascript:;">香锅烤鱼</a></li>
+                        </ul>
+                        <ul class="two">
+                            <li><a href="javascript:;">粤港菜</a></li>
+                            <li><a href="javascript:;">京菜鲁菜</a></li>
+                            <li><a href="javascript:;">咖啡酒吧茶馆</a></li>
+                            <li><a href="javascript:;">云贵菜</a></li>
+                            <li><a href="javascript:;">东南亚菜</a></li>
+                            <li><a href="javascript:;">海鲜</a></li>
+                            <li><a href="javascript:;">素食</a></li>
+                            <li><a href="javascript:;">台湾/客家菜</a></li>
+                            <li><a href="javascript:;">创意菜</a></li>
+                            <li><a href="javascript:;">汤/粥/炖菜</a></li>
+                            <li><a href="javascript:;">其他美食</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">酒店</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">经济型酒店</a></li>
+                            <li><a href="javascript:;">主题酒店</a></li>
+                            <li><a href="javascript:;">度假酒店/度假村</a></li>
+                            <li><a href="javascript:;">公寓型酒店</a></li>
+                            <li><a href="javascript:;">客栈</a></li>
+                            <li><a href="javascript:;">青年旅社</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">当前热映</a></h4>
+                        <ul class="one">
+                            <li><a href="javascript:;">银河护卫队2</a></li>
+                            <li><a href="javascript:;">拆弹·专家</a></li>
+                            <li><a href="javascript:;">速度与激情8</a></li>
+                            <li><a href="javascript:;" class="current">摔跤吧！爸爸</a></li>
+                            <li><a href="javascript:;">超凡战队</a></li>
+                            <li><a href="javascript:;">麻烦家族</a></li>
+                            <li><a href="javascript:;">春娇救志明</a></li>
+                            <li><a href="javascript:;">记忆大师</a></li>
+                            <li><a href="javascript:;">异星觉醒</a></li>
+                            <li><a href="javascript:;">加勒比海盗5：死...</a></li>
+                        </ul>
+                        <ul class="two">
+                            <li><a href="javascript:;">星空影城</a></li>
+                            <li><a href="javascript:;">星美国际影城</a></li>
+                            <li><a href="javascript:;">美亚影城</a></li>
+                            <li><a href="javascript:;" class="current">万达影城</a></li>
+                            <li><a href="javascript:;">中影国际影城</a></li>
+                            <li><a href="javascript:;">上影国际影城</a></li>
+                            <li><a href="javascript:;">万宇国际影城</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl" style="display: none"></div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">休闲娱乐</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">KTV</a></li>
+                            <li><a href="javascript:;">更多休闲娱乐</a></li>
+                            <li><a href="javascript:;">运动健身</a></li>
+                            <li><a href="javascript:;">私人影院</a></li>
+                            <li><a href="javascript:;">足疗按摩</a></li>
+                            <li><a href="javascript:;">洗浴/汗蒸</a></li>
+                            <li><a href="javascript:;">中医养生</a></li>
+                            <li><a href="javascript:;">桌游</a></li>
+                            <li><a href="javascript:;">温泉</a></li>
+                            <li><a href="javascript:;">DIY手工坊</a></li>
+                            <li><a href="javascript:;">密室逃脱</a></li>
+                            <li><a href="javascript:;">酒吧</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">周边游</a></h4>
+                        <ul>
+                            <li><a href="javascript:;">温泉</a></li>
+                            <li><a href="javascript:;">景点</a></li>
+                            <li><a href="javascript:;" class="current">主题公园</a></li>
+                            <li><a href="javascript:;">水上乐园</a></li>
+                            <li><a href="javascript:;">动植物园</a></li>
+                            <li><a href="javascript:;">海洋馆</a></li>
+                            <li><a href="javascript:;">展览馆</a></li>
+                            <li><a href="javascript:;">游船</a></li>
+                            <li><a href="javascript:;">高空观景</a></li>
+                            <li><a href="javascript:;">单车出租</a></li>
+                            <li><a href="javascript:;">农家乐</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">生活服务</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">婚纱摄影</a></li>
+                            <li><a href="javascript:;" class="current">个性写真</a></li>
+                            <li><a href="javascript:;">亲子摄影</a></li>
+                            <li><a href="javascript:;">其他摄影</a></li>
+                            <li><a href="javascript:;">培训课程</a></li>
+                            <li><a href="javascript:;">其他生活</a></li>
+                            <li><a href="javascript:;">汽车服务</a></li>
+                            <li><a href="javascript:;">体检/齿科</a></li>
+                            <li><a href="javascript:;">衣物/皮具洗护</a></li>
+                            <li><a href="javascript:;">鲜花</a></li>
+                            <li><a href="javascript:;">母婴亲子</a></li>
+                            <li><a href="javascript:;">配镜</a></li>
+                            <li><a href="javascript:;">照片冲印</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl">
+                        <h4><a href="javascript:;">丽人</a></h4>
+                        <ul>
+                            <li><a href="javascript:;" class="current">美发</a></li>
+                            <li><a href="javascript:;">美容美体</a></li>
+                            <li><a href="javascript:;">美甲美睫</a></li>
+                            <li><a href="javascript:;">瑜伽舞蹈</a></li>
+                            <li><a href="javascript:;">瘦身纤体</a></li>
+                            <li><a href="javascript:;">韩式定妆</a></li>
+                            <li><a href="javascript:;">祛痘</a></li>
+                        </ul>
+                    </div>
+                    <div class="youbian fl" style="display: none"></div>
+                </div>
+            </div>
+    	</div>
+    	<div class="nav fl">
+    		<ul>
+    			<li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">今日新单</a></li>
+                <li><a href="javascript:;">美食</a></li>
+                <li><a href="javascript:;">身边外卖</a></li>
+    		</ul>
+    	</div>
+    </div>
+</div>
+<!-- 头部结束 -->
+
+
+<!-- 地区选择 -->
+<div class="areaChoose">
+	<div class="city-province">
+		<span>按省份选择：</span>
+        <select onchange="chinaChange(this,document.getElementById('city'));" style=" width:10%; height:30px;line-height:30px; ">
+                <option value ="请选择市区">请选择省份</option>
+                <option value ="北京市">北京市 </option>
+                <option value ="天津市">天津市 </option>
+                <option value ="上海市">上海市 </option>
+                <option value ="重庆市">重庆市 </option>
+                <option value ="河北省">河北省 </option>
+                <option value ="山西省">山西省 </option>
+                <option value ="辽宁省">辽宁省 </option>
+                <option value ="吉林省">吉林省 </option>
+                <option value ="黑龙江省">黑龙江省</option>
+                <option value ="江苏省">江苏省 </option>
+                <option value ="浙江省">浙江省 </option>
+                <option value ="安徽省">安徽省 </option>
+                <option value ="福建省">福建省 </option>
+                <option value ="江西省">江西省 </option>
+                <option value ="山东省">山东省 </option>
+                <option value ="河南省">河南省 </option>
+                <option value ="湖北省">湖北省 </option>
+                <option value ="湖南省">湖南省 </option>
+                <option value ="广东省">广东省 </option>
+                <option value ="海南省">海南省 </option>
+                <option value ="四川省">四川省 </option>
+                <option value ="贵州省">贵州省 </option>
+                <option value ="云南省">云南省 </option>
+                <option value ="陕西省">陕西省 </option>
+                <option value ="甘肃省">甘肃省 </option>
+                <option value ="青海省">青海省 </option>
+                <option value ="台湾省">台湾省 </option>
+                <option value ="广西壮族自治区">广西壮族自治区</option>
+                <option value ="内蒙古自治区">内蒙古自治区</option>
+                <option value ="西藏自治区">西藏自治区</option>
+                <option value ="宁夏回族自治区">宁夏回族自治区 </option>
+                <option value ="新疆维吾尔自治区">新疆维吾尔自治区</option>
+                <option value ="香港特别行政区">香港特别行政区</option>
+                <option value ="澳门特别行政区">澳门特别行政区</option>
+            </select>
+            <select name="city" id="city" style=" width:10%; height:30px;line-height:30px; ">
+            <option value ="请选择市区">请选择市区</option>
+            </select>
+		<input value="确定" type="submit" class="qd">
+		<span class="zjss">直接搜索：</span>
+		<input type="text" placeholder="请输入城市中文或拼音">
+	</div>
+	<div class="city-list">
+		<h3>常用城市：</h3>
+		<p>
+			<a href="javascript:;">北京</a>
+			<a href="javascript:;">上海</a>
+			<a href="javascript:;">广州</a>
+			<a href="javascript:;">深圳</a>
+			<a href="javascript:;">天津</a>
+			<a href="javascript:;">西安</a>
+			<a href="javascript:;">重庆</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">南京</a>
+			<a href="javascript:;">武汉</a>
+			<a href="javascript:;">成都</a>
+			<a href="javascript:;">上海</a>
+			<a href="javascript:;">苏州</a>
+			<a href="javascript:;">无锡</a>
+			<a href="javascript:;">昆山</a>
+			<a href="javascript:;">常州</a>
+			<a href="javascript:;">宁波</a>
+			<a href="javascript:;">合肥</a>
+			<a href="javascript:;">长沙</a>
+			<a href="javascript:;">嘉兴</a>
+		</p>
+	</div>
+    <div class="city-recent">
+    	<h3>最近访问：</h3>
+    	<p><a href="javascript;" id="zjfw">上海</a></p>
+    </div>
+    <div class="cities-list">
+        <h2>按拼音字母选择<i class="iconfont">&#xe639;</i></h2>
+        <ol>
+            <li>
+                <p>
+                    <span class="zm">A</span>
+                    <span class="area">
+                        <a href="javascript:;">安阳</a>
+                        <a href="javascript:;">阿拉尔</a>
+                        <a href="javascript:;">安岳</a>
+                        <a href="javascript:;">安化</a>
+                        <a href="javascript:;">阿里</a>
+                        <a href="javascript:;">安庆</a>
+                        <a href="javascript:;">阿勒泰市</a>
+                        <a href="javascript:;">鞍山</a>
+                        <a href="javascript:;">安福</a>
+                        <a href="javascript:;">安宁</a>
+                        <a href="javascript:;">安吉</a>
+                        <a href="javascript:;">安溪</a>
+                        <a href="javascript:;">阿拉善盟</a>
+                        <a href="javascript:;">阿坝</a>
+                        <a href="javascript:;">安顺</a>
+                        <a href="javascript:;">安丘</a>
+                        <a href="javascript:;">阿勒泰</a>
+                        <a href="javascript:;">阿克苏</a>
+                        <a href="javascript:;">澳门</a>
+                        <a href="javascript:;">安康</a>
+                        <a href="javascript:;">安平</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">B</span>
+                    <span class="area">
+                        <a href="javascript:;">北京</a>
+                        <a href="javascript:;">博山</a>
+                        <a href="javascript:;">博罗县</a>
+                        <a href="javascript:;">亳州</a>
+                        <a href="javascript:;">巴彦淖尔</a>
+                        <a href="javascript:;">毕节</a>
+                        <a href="javascript:;">北海</a>
+                        <a href="javascript:;">泌阳</a>
+                        <a href="javascript:;">璧山</a>
+                        <a href="javascript:;">巴中</a>
+                        <a href="javascript:;">泊头市</a>
+                        <a href="javascript:;">宝鸡</a>
+                        <a href="javascript:;">包头</a>
+                        <a href="javascript:;">北碚</a>
+                        <a href="javascript:;">博兴</a>
+                        <a href="javascript:;">白银</a>
+                        <a href="javascript:;">宝山</a>
+                        <a href="javascript:;">滨海</a>
+                        <a href="javascript:;">本溪</a>
+                        <a href="javascript:;">霸州</a>
+                        <a href="javascript:;">滨州</a>
+                        <a href="javascript:;">百色</a>
+                        <a href="javascript:;">博爱</a>
+                        <a href="javascript:;">博白县</a>
+                        <a href="javascript:;">巴州</a>
+                        <a href="javascript:;">北流</a>
+                        <a href="javascript:;">蚌埠</a>
+                        <a href="javascript:;">宾阳</a>
+                        <a href="javascript:;">保定</a>
+                        <a href="javascript:;">白山</a>
+                        <a href="javascript:;">彬县</a>
+                        <a href="javascript:;">博尔塔拉</a>
+                        <a href="javascript:;">宝丰</a>
+                        <a href="javascript:;">白城</a>
+                        <a href="javascript:;">宝应</a>
+                    </span>:
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">C</span>
+                    <span class="area">
+                        <a href="javascript:;">成都</a>
+                        <a href="javascript:;">重庆</a>
+                        <a href="javascript:;">朝阳</a>
+                        <a href="javascript:;">岑溪</a>
+                        <a href="javascript:;">茌平</a>
+                        <a href="javascript:;">长垣</a>
+                        <a href="javascript:;">成安</a>
+                        <a href="javascript:;">长治</a>
+                        <a href="javascript:;">承德县</a>
+                        <a href="javascript:;">崇州</a>
+                        <a href="javascript:;">淳安</a>
+                        <a href="javascript:;">昌黎</a>
+                        <a href="javascript:;">潮州</a>
+                        <a href="javascript:;">曹县</a>
+                        <a href="javascript:;">长葛</a>
+                        <a href="javascript:;">苍南</a>
+                        <a href="javascript:;">赤壁</a>
+                        <a href="javascript:;">昌邑</a>
+                        <a href="javascript:;">城阳</a>
+                        <a href="javascript:;">昌州</a>
+                        <a href="javascript:;">常州</a>
+                        <a href="javascript:;">赤水</a>
+                        <a href="javascript:;">楚雄</a>
+                        <a href="javascript:;">巢湖</a>
+                        <a href="javascript:;">磁县</a>
+                        <a href="javascript:;">从化</a>
+                        <a href="javascript:;">城固 </a>
+                        <a href="javascript:;">昌乐</a>
+                        <a href="javascript:;">常山</a>
+                        <a href="javascript:;">长丰县</a>
+                        <a href="javascript:;">潮安</a>
+                        <a href="javascript:;">潮阳</a>
+                        <a href="javascript:;">澄海</a>
+                        <a href="javascript:;">长寿</a>
+                        <a href="javascript:;">长沙</a>
+                        <a href="javascript:;">昌吉</a>
+                        <a href="javascript:;">昌都</a>
+                        <a href="javascript:;">崇左</a>
+                        <a href="javascript:;">常熟</a>
+                        <a href="javascript:;">承德</a>
+                        <a href="javascript:;">曹妃甸</a>
+                        <a href="javascript:;">慈利</a>
+                        <a href="javascript:;">磁州</a>
+                        <a href="javascript:;">长兴</a>
+                        <a href="javascript:;">慈溪</a>
+                        <a href="javascript:;">常宁市</a>
+                        <a href="javascript:;">长汀</a>
+                        <a href="javascript:;">常春</a>
+                        <a href="javascript:;">长春</a>
+                        <a href="javascript:;">郴州</a>
+                        <a href="javascript:;">赤峰</a>
+                        <a href="javascript:;">常德</a>
+                        <a href="javascript:;">滁州</a>
+                        <a href="javascript:;">茶陵</a>
+                        <a href="javascript:;">长乐</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">D</span>
+                    <span class="area">
+                        <a href="javascript:;">定州</a>
+                        <a href="javascript:;">调兵山</a>
+                        <a href="javascript:;">邓州</a>
+                        <a href="javascript:;">电白</a>
+                        <a href="javascript:;">灯塔</a>
+                        <a href="javascript:;">东营</a>
+                        <a href="javascript:;">定西</a>
+                        <a href="javascript:;">德阳</a>
+                        <a href="javascript:;">大丰</a>
+                        <a href="javascript:;">德清</a>
+                        <a href="javascript:;">东阳</a>
+                        <a href="javascript:;">达州</a>
+                        <a href="javascript:;">东台</a>
+                        <a href="javascript:;">德宏</a>
+                        <a href="javascript:;">迪庆</a>
+                        <a href="javascript:;">敦煌</a>
+                        <a href="javascript:;">丹阳</a>
+                        <a href="javascript:;">大理</a>
+                        <a href="javascript:;">当阳</a>
+                        <a href="javascript:;">道县</a>
+                        <a href="javascript:;">大石桥</a>
+                        <a href="javascript:;">大冶</a>
+                        <a href="javascript:;">东方</a>
+                        <a href="javascript:;">大通</a>
+                        <a href="javascript:;">都江堰</a>
+                        <a href="javascript:;">东兴</a>
+                        <a href="javascript:;">登封</a>
+                        <a href="javascript:;">儋州</a>
+                        <a href="javascript:;">东港</a>
+                        <a href="javascript:;">德州</a>
+                        <a href="javascript:;">东平</a>
+                        <a href="javascript:;">郸城</a>
+                        <a href="javascript:;">大荔</a>
+                        <a href="javascript:;">大洼</a>
+                        <a href="javascript:;">大同</a>
+                        <a href="javascript:;">达拉特旗</a>
+                        <a href="javascript:;">大兴安岭</a>
+                        <a href="javascript:;">丹东</a>
+                        <a href="javascript:;">东海</a>
+                        <a href="javascript:;">大安市</a>
+                        <a href="javascript:;">大竹</a>
+                        <a href="javascript:;">砀山</a>
+                        <a href="javascript:;">大连</a>
+                        <a href="javascript:;">敦化</a>
+                        <a href="javascript:;">东光</a>
+                        <a href="javascript:;">东莞</a>
+                        <a href="javascript:;">大邑</a>
+                        <a href="javascript:;">大庆</a>
+                    </span>
+                </p>:
+            </li>
+            <li>
+                <p>
+                    <span class="zm">E</span>
+                    <span class="area">
+                        <a href="javascript:;">鄂尔多斯</a>
+                        <a href="javascript:;">恩平</a>
+                        <a href="javascript:;">峨眉山</a>
+                        <a href="javascript:;">鄂州</a>
+                        <a href="javascript:;">额尔古纳</a>
+                        <a href="javascript:;">恩施</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">F</span>
+                    <span class="area">
+                        <a href="javascript:;">阜康</a>
+                        <a href="javascript:;">方城</a>
+                        <a href="javascript:;">凤台</a>
+                        <a href="javascript:;">凤阳</a>
+                        <a href="javascript:;">凤凰</a>
+                        <a href="javascript:;">富顺</a>
+                        <a href="javascript:;">扶绥县</a>
+                        <a href="javascript:;">凤城</a>
+                        <a href="javascript:;">佛山</a>
+                        <a href="javascript:;">丰县</a>
+                        <a href="javascript:;">分宜</a>
+                        <a href="javascript:;">奉化</a>
+                        <a href="javascript:;">阜阳</a>
+                        <a href="javascript:;">抚顺</a>
+                        <a href="javascript:;">抚州</a>
+                        <a href="javascript:;">抚松</a>
+                        <a href="javascript:;">范县</a>
+                        <a href="javascript:;">奉新</a>
+                        <a href="javascript:;">肥城</a>
+                        <a href="javascript:;">阜新</a>
+                        <a href="javascript:;">阜宁</a>
+                        <a href="javascript:;">丰城</a>
+                        <a href="javascript:;">涪陵</a>
+                        <a href="javascript:;">扶风</a>
+                        <a href="javascript:;">福州</a>
+                        <a href="javascript:;">富阳</a>
+                        <a href="javascript:;">汾阳</a>
+                        <a href="javascript:;">繁昌</a>
+                        <a href="javascript:;">肥乡</a>
+                        <a href="javascript:;">富源县</a>
+                        <a href="javascript:;">丰宁</a>
+                        <a href="javascript:;">封丘</a>
+                        <a href="javascript:;">扶沟</a>
+                        <a href="javascript:;">福清</a>
+                        <a href="javascript:;">费县</a>
+                        <a href="javascript:;">佛冈</a>
+                        <a href="javascript:;">防城港</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">G</span>
+                    <span class="area">
+                        <a href="javascript:;">广州</a>
+                        <a href="javascript:;">赣榆</a>
+                        <a href="javascript:;">鼓浪屿</a>
+                        <a href="javascript:;">桂林</a>
+                        <a href="javascript:;">固原</a>
+                        <a href="javascript:;">巩义</a>
+                        <a href="javascript:;">公安</a>
+                        <a href="javascript:;">高雄</a>
+                        <a href="javascript:;">古交</a>
+                        <a href="javascript:;">灌云</a>
+                        <a href="javascript:;">贵阳</a>
+                        <a href="javascript:;">高阳</a>
+                        <a href="javascript:;">广元</a>
+                        <a href="javascript:;">赣州</a>
+                        <a href="javascript:;">贵港</a>
+                        <a href="javascript:;">广安</a>
+                        <a href="javascript:;">高邮</a>
+                        <a href="javascript:;">藁城</a>
+                        <a href="javascript:;">高安</a>
+                        <a href="javascript:;">广汉</a>
+                        <a href="javascript:;">公主岭</a>
+                        <a href="javascript:;">广德</a>
+                        <a href="javascript:;">高平</a>
+                        <a href="javascript:;">灌南</a>
+                        <a href="javascript:;">共青路</a>
+                        <a href="javascript:;">果洛</a>
+                        <a href="javascript:;">格尔木</a>
+                        <a href="javascript:;">甘南</a>
+                        <a href="javascript:;">固始县</a>
+                        <a href="javascript:;">高密</a>
+                        <a href="javascript:;">个旧</a>
+                        <a href="javascript:;">甘孜</a>
+                        <a href="javascript:;">高陵</a>
+                        <a href="javascript:;">高州</a>
+                        <a href="javascript:;">广饶</a>
+                        <a href="javascript:;">高碑店</a>
+                        <a href="javascript:;">桂平</a>
+                        <a href="javascript:;">盖州</a>:
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">H</span>
+                    <span class="area">
+                        <a href="javascript:;">杭州</a>
+                        <a href="javascript:;">海南州</a>
+                        <a href="javascript:;">海北</a>
+                        <a href="javascript:;">海西</a>
+                        <a href="javascript:;">黄南</a>
+                        <a href="javascript:;">汉中</a>
+                        <a href="javascript:;">和田</a>
+                        <a href="javascript:;">怀宁</a>
+                        <a href="javascript:;">淮阳</a>
+                        <a href="javascript:;">海昌</a>
+                        <a href="javascript:;">海宁</a>
+                        <a href="javascript:;">贺兰县</a>
+                        <a href="javascript:;">珲春</a>
+                        <a href="javascript:;">哈密</a>
+                        <a href="javascript:;">霍邱</a>
+                        <a href="javascript:;">花都</a>
+                        <a href="javascript:;">潢川</a>
+                        <a href="javascript:;">华亭</a>
+                        <a href="javascript:;">侯马</a>
+                        <a href="javascript:;">河津</a>
+                        <a href="javascript:;">汉阴</a>
+                        <a href="javascript:;">河口</a>
+                        <a href="javascript:;">衡东县</a>
+                        <a href="javascript:;">汉南区</a>
+                        <a href="javascript:;">海安</a>
+                        <a href="javascript:;">衡山县</a>
+                        <a href="javascript:;">惠安</a>
+                        <a href="javascript:;">海林</a>
+                        <a href="javascript:;">辉县</a>
+                        <a href="javascript:;">怀仁</a>
+                        <a href="javascript:;">海伦市</a>
+                        <a href="javascript:;">户县</a>
+                        <a href="javascript:;">化州</a>
+                        <a href="javascript:;">含山</a>
+                        <a href="javascript:;">和县</a>
+                        <a href="javascript:;">洪江</a>
+                        <a href="javascript:;">辉南</a>
+                        <a href="javascript:;">滑县</a>
+                        <a href="javascript:;">韩城</a>
+                        <a href="javascript:;">鹤山</a>
+                        <a href="javascript:;">桦甸</a>
+                        <a href="javascript:;">韩川</a>
+                        <a href="javascript:;">含川</a>
+                        <a href="javascript:;">花莲</a>
+                        <a href="javascript:;">惠东</a>
+                        <a href="javascript:;">洪湖</a>
+                        <a href="javascript:;">黄岛</a>
+                        <a href="javascript:;">海城</a>
+                        <a href="javascript:;">横店</a>
+                        <a href="javascript:;">洪洞</a>
+                        <a href="javascript:;">海阳</a>
+                        <a href="javascript:;">黄骅</a>
+                        <a href="javascript:;">华阴</a>
+                        <a href="javascript:;">霍州</a>
+                        <a href="javascript:;">衡阳县</a>
+                        <a href="javascript:;">海盐</a>
+                        <a href="javascript:;">惠阳</a>
+                        <a href="javascript:;">海门</a>
+                        <a href="javascript:;">淮北</a>
+                        <a href="javascript:;">葫芦岛</a>
+                        <a href="javascript:;">海口</a>
+                        <a href="javascript:;">惠州</a>
+                        <a href="javascript:;">黑河</a>
+                        <a href="javascript:;">会泽县</a>
+                        <a href="javascript:;">哈尔滨</a>
+                        <a href="javascript:;">淮南</a>
+                        <a href="javascript:;">黄山</a>
+                        <a href="javascript:;">鹤岗</a>
+                        <a href="javascript:;">贺州</a>
+                        <a href="javascript:;">河间市</a>
+                        <a href="javascript:;">呼伦贝尔</a>
+                        <a href="javascript:;">黄冈</a>
+                        <a href="javascript:;">红河</a>
+                        <a href="javascript:;">河源</a>
+                        <a href="javascript:;">淮安</a>
+                        <a href="javascript:;">香港</a>
+                        <a href="javascript:;">合肥</a>
+                        <a href="javascript:;">海东</a>
+                        <a href="javascript:;">呼和浩特</a>
+                        <a href="javascript:;">邯郸</a>
+                        <a href="javascript:;">河池</a>
+                        <a href="javascript:;">衡阳</a>
+                        <a href="javascript:;">湖州</a>
+                        <a href="javascript:;">黄石</a>
+                        <a href="javascript:;">合浦县</a>
+                        <a href="javascript:;">菏泽</a>
+                        <a href="javascript:;">衡水</a>
+                        <a href="javascript:;">怀远县</a>
+                        <a href="javascript:;">华容</a>
+                        <a href="javascript:;">怀化</a>
+                        <a href="javascript:;">鹤壁</a>
+:
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">J</span>
+                    <span class="area">
+                        <a href="javascript:;">嘉善</a>
+                        <a href="javascript:;">九寨沟</a>
+                        <a href="javascript:;">井冈山</a>
+                        <a href="javascript:;">郏县</a>
+                        <a href="javascript:;">佳木斯</a>
+                        <a href="javascript:;">吉林</a>
+                        <a href="javascript:;">晋中</a>
+                        <a href="javascript:;">金坛</a>
+                        <a href="javascript:;">揭阳</a>
+                        <a href="javascript:;">吉安县</a>
+                        <a href="javascript:;">吉水县</a>
+                        <a href="javascript:;">江津</a>
+                        <a href="javascript:;">江华瑶族自治区</a>
+                        <a href="javascript:;">巨野</a>
+                        <a href="javascript:;">金堂</a>
+                        <a href="javascript:;">江山</a>
+                        <a href="javascript:;">晋城</a>
+                        <a href="javascript:;">鸡西</a>
+                        <a href="javascript:;">嘉义县</a>
+                        <a href="javascript:;">江永</a>
+                        <a href="javascript:;">介休</a>
+                        <a href="javascript:;">即墨</a>
+                        <a href="javascript:;">江门</a>
+                        <a href="javascript:;">甄城县</a>
+                        <a href="javascript:;">景德镇</a>
+                        <a href="javascript:;">胶州</a>
+                        <a href="javascript:;">济源</a>
+                        <a href="javascript:;">简阳</a>
+                        <a href="javascript:;">荆门</a>
+                        <a href="javascript:;">济阳</a>
+                        <a href="javascript:;">集安</a>
+                        <a href="javascript:;">建德</a>
+                        <a href="javascript:;">吉安</a>
+                        <a href="javascript:;">建湖</a>
+                        <a href="javascript:;">荆州</a>
+                        <a href="javascript:;">蛟河</a>
+                        <a href="javascript:;">监利</a>
+                        <a href="javascript:;">吉首</a>
+                        <a href="javascript:;">嘉兴</a>
+                        <a href="javascript:;">金华</a>
+                        <a href="javascript:;">金门</a>
+                        <a href="javascript:;">江川县</a>
+                        <a href="javascript:;">建阳</a>
+                        <a href="javascript:;">晋宁县</a>
+                        <a href="javascript:;">基隆</a>
+                        <a href="javascript:;">嘉义市</a>
+                        <a href="javascript:;">句容</a>
+                        <a href="javascript:;">晋州</a>
+                        <a href="javascript:;">建水县</a>
+                        <a href="javascript:;">金昌</a>
+                        <a href="javascript:;">京山</a>
+                        <a href="javascript:;">江都</a>
+                        <a href="javascript:;">焦作</a>
+                        <a href="javascript:;">缙云</a>
+                        <a href="javascript:;">江油</a>
+                        <a href="javascript:;">莒南</a>
+                        <a href="javascript:;">江宁</a>
+                        <a href="javascript:;">靖江</a>
+                        <a href="javascript:;">泾县</a>
+                        <a href="javascript:;">金沙</a>
+                        <a href="javascript:;">济南</a>
+                        <a href="javascript:;">九江</a>
+                        <a href="javascript:;">集美</a>
+                        <a href="javascript:;">晋江</a>
+                        <a href="javascript:;">锦州</a>
+                        <a href="javascript:;">江阴</a>
+                        <a href="javascript:;">酒泉</a>
+                        <a href="javascript:;">金乡</a>
+                        <a href="javascript:;">锦湖</a>
+                        <a href="javascript:;">嘉祥</a>
+                        <a href="javascript:;">嘉峪关</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">K</span>
+                    <span class="area">
+                        <a href="javascript:;">垦利</a>
+                        <a href="javascript:;">克州</a>
+                        <a href="javascript:;">奎屯</a>
+                        <a href="javascript:;">开平</a>
+                        <a href="javascript:;">喀什地区</a>
+                        <a href="javascript:;">喀什市</a>
+                        <a href="javascript:;">开县</a>
+                        <a href="javascript:;">昆山</a>
+                        <a href="javascript:;">宽城</a>
+                        <a href="javascript:;">克拉玛依</a>
+                        <a href="javascript:;">开阳</a>
+                        <a href="javascript:;">开封</a>
+                        <a href="javascript:;">库尔勒</a>
+                        <a href="javascript:;">库车</a>
+                        <a href="javascript:;">凯里</a>
+                        <a href="javascript:;">开化</a>
+                        <a href="javascript:;">昆明</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+            <p>
+                <span class="zm">L</span>
+                <span class="area">
+                        <a href="javascript::;">安阳</a>
+                        <a href="javascript::;">莱州</a>
+                        <a href="javascript::;">丽水</a>
+                        <a href="javascript::;">临夏</a>
+                        <a href="javascript::;">涟水</a>
+                        <a href="javascript::;">澧县</a>
+                        <a href="javascript::;">临安</a>
+                        <a href="javascript::;">临清</a>
+                        <a href="javascript::;">滦南</a>
+                        <a href="javascript::;">辽中</a>
+                        <a href="javascript::;">栾城</a>
+                        <a href="javascript::;">利辛</a>
+                        <a href="javascript::;">灵宝</a>
+                        <a href="javascript::;">连州</a>
+                        <a href="javascript::;">蓝山</a>
+                        <a href="javascript::;">利津</a>
+                        <a href="javascript::;">乐昌</a>
+                        <a href="javascript::;">冷水</a>
+                        <a href="javascript::;">凉山</a>
+                        <a href="javascript::;">梁山</a>
+                        <a href="javascript::;">莱芜</a>
+                        <a href="javascript::;">六安</a>
+                        <a href="javascript::;">丽江</a>
+                        <a href="javascript::;">庐江县</a>
+                        <a href="javascript::;">灵山</a>
+                        <a href="javascript::;">临沂</a>
+                        <a href="javascript::;">廉江</a>
+                        <a href="javascript::;">陵水</a>
+                        <a href="javascript::;">临颍</a>
+                        <a href="javascript::;">凌海</a>
+                        <a href="javascript::;">临江</a>
+                        <a href="javascript::;">娄底</a>
+                        <a href="javascript::;">阆中</a>
+                        <a href="javascript::;">灵丘县</a>
+                        <a href="javascript::;">鹿泉</a>
+                        <a href="javascript::;">乐平</a>
+                        <a href="javascript::;">龙岩</a>
+                        <a href="javascript::;">漯河</a>
+                        <a href="javascript::;">莱西</a>
+                        <a href="javascript::;">陇南</a>
+                        <a href="javascript::;">梁山</a>
+                        <a href="javascript::;">乐陵</a>
+                        <a href="javascript::;">洛阳</a>
+                        <a href="javascript::;">聊城</a>
+                        <a href="javascript::;">利川</a>
+                        <a href="javascript::;">临朐</a>
+                        <a href="javascript::;">乐亭</a>
+                        <a href="javascript::;">滦县</a>
+                        <a href="javascript::;">浏阳</a>
+                        <a href="javascript::;">隆化县</a>
+                        <a href="javascript::;">醴陵</a>
+                        <a href="javascript::;">龙海</a>
+                        <a href="javascript::;">老河口</a>
+                        <a href="javascript::;">兰州</a>
+                        <a href="javascript::;">六盘水</a>
+                        <a href="javascript::;">雷州</a>
+                        <a href="javascript::;">廊坊</a>
+                        <a href="javascript::;">临淄</a>
+                        <a href="javascript::;">临汾</a>
+                        <a href="javascript::;">柳州</a>
+                        <a href="javascript::;">龙口</a>
+                        <a href="javascript::;">临沭</a>
+                        <a href="javascript::;">辽源</a>
+                        <a href="javascript::;">临澧</a>
+                        <a href="javascript::;">鲁山</a>
+                        <a href="javascript::;">隆尧</a>
+                        <a href="javascript::;">泸州</a>
+                        <a href="javascript::;">隆回</a>
+                        <a href="javascript::;">栾川</a>
+                        <a href="javascript::;">吕梁</a>
+                        <a href="javascript::;">耒阳</a>
+                        <a href="javascript::;">柳河</a>
+                        <a href="javascript::;">涟源市</a>
+                        <a href="javascript::;">兰陵</a>
+                        <a href="javascript::;">溧阳</a>
+                        <a href="javascript::;">乐山</a>
+                        <a href="javascript::;">龙游</a>
+                        <a href="javascript::;">临猗</a>
+                        <a href="javascript::;">临海</a>
+                        <a href="javascript::;">泸西</a>
+                        <a href="javascript::;">临沧</a>
+                        <a href="javascript::;">辽阳</a>
+                        <a href="javascript::;">灵石</a>
+                        <a href="javascript::;">庐山</a>
+                        <a href="javascript::;">陆丰</a>
+                        <a href="javascript::;">龙泉</a>
+                        <a href="javascript::;">连江</a>
+                        <a href="javascript::;">临邑</a>
+                        <a href="javascript::;">拉萨</a>
+                        <a href="javascript::;">鹿邑</a>
+                        <a href="javascript::;">连云港</a>
+                        <a href="javascript::;">隆昌</a>
+                        <a href="javascript::;">茉阳</a>
+                        <a href="javascript::;">兰溪</a>
+                        <a href="javascript::;">林州</a>
+                        <a href="javascript::;">来宾</a>
+                        <a href="javascript::;">临川</a>
+                        <a href="javascript::;">临潼</a>
+                        <a href="javascript::;">洛宁</a>
+                        <a href="javascript::;">蓝田</a>
+                        <a href="javascript::;">罗平县</a>
+                        <a href="javascript::;">临漳</a>
+                    </span>
+            </p>
+        </li>
+            <li>
+                <p>
+                    <span class="zm">M</span>
+                    <span class="area">
+                        <a href="javascript:;">苗栗</a>
+                        <a href="javascript:;">蒙阴</a>
+                        <a href="javascript:;">孟州</a>
+                        <a href="javascript:;">梅河口</a>
+                        <a href="javascript:;">绵竹</a>
+                        <a href="javascript:;">冥王星</a>
+                        <a href="javascript:;">牟平</a>
+                        <a href="javascript:;">满洲里</a>
+                        <a href="javascript:;">眉山</a>
+                        <a href="javascript:;">渑池</a>
+                        <a href="javascript:;">麻城</a>
+                        <a href="javascript:;">汨罗</a>
+                        <a href="javascript:;">绵阳</a>
+                        <a href="javascript:;">马鞍山</a>
+                        <a href="javascript:;">民权</a>
+                        <a href="javascript:;">梅州</a>
+                        <a href="javascript:;">蒙城</a>
+                        <a href="javascript:;">眉县</a>
+                        <a href="javascript:;">孟津</a>
+                        <a href="javascript:;">密山</a>
+                        <a href="javascript:;">漠河</a>
+                        <a href="javascript:;">明光</a>
+                        <a href="javascript:;">茂名</a>
+                        <a href="javascript:;">蒙自市</a>
+                        <a href="javascript:;">牡丹江</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">N</span>
+                    <span class="area">
+                        <a href="javascript:;">南京</a>
+                        <a href="javascript:;">讷河</a>
+                        <a href="javascript:;">宁波</a>
+                        <a href="javascript:;">南通</a>
+                        <a href="javascript:;">南乐</a>
+               :         <a href="javascript:;">南和</a>
+                        <a href="javascript:;">内丘</a>
+                        <a href="javascript:;">宁晋</a>
+                        <a href="javascript:;">宁陵</a>
+                        <a href="javascript:;">南宁</a>
+                        <a href="javascript:;">宁津</a>
+                        <a href="javascript:;">南雄</a>
+                        <a href="javascript:;">南陵</a>
+                        <a href="javascript:;">南宫</a>
+                        <a href="javascript:;">南平</a>
+                        <a href="javascript:;">南皮县</a>
+                        <a href="javascript:;">宁阳</a>
+                        <a href="javascript:;">宁国</a>
+                        <a href="javascript:;">南投</a>
+                        <a href="javascript:;">南昌</a>
+                        <a href="javascript:;">内黄</a>
+                        <a href="javascript:;">宁德</a>
+                        <a href="javascript:;">那曲</a>
+                        <a href="javascript:;">南部县</a>
+                        <a href="javascript:;">怒江</a>
+                        <a href="javascript:;">宁海</a>
+                        <a href="javascript:;">南沙</a>
+                        <a href="javascript:;">南阳</a>
+                        <a href="javascript:;">宁江</a>
+                        <a href="javascript:;">南郑县</a>
+                        <a href="javascript:;">南安</a>
+                        <a href="javascript:;">南充</a>
+                        <a href="javascript:;">内江</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">P</span>
+                    <span class="area">
+                        <a href="javascript:;">邳州</a>
+                        <a href="javascript:;">普宁</a>
+                        <a href="javascript:;">平潭</a>
+                        <a href="javascript:;">平湖</a>
+                        <a href="javascript:;">磐石</a>
+                        <a href="javascript:;">平罗县</a>
+                        <a href="javascript:;">莆田</a>
+                        <a href="javascript:;">屏东</a>
+                        <a href="javascript:;">浦江</a>
+                        <a href="javascript:;">盘锦</a>
+                        <a href="javascript:;">澎湖</a>
+                        <a href="javascript:;">濮阳县</a>
+                        <a href="javascript:;">平凉</a>
+                        <a href="javascript:;">普洱</a>
+                        <a href="javascript:;">番禹</a>
+                        <a href="javascript:;">平遥</a>
+                        <a href="javascript:;">平果</a>
+                        <a href="javascript:;">平舆</a>
+                        <a href="javascript:;">平阳</a>
+                        <a href="javascript:;">平泉</a>
+                        <a href="javascript:;">平邑</a>
+                        <a href="javascript:;">沛县</a>
+                        <a href="javascript:;">萍乡</a>
+                        <a href="javascript:;">蒲城</a>
+                        <a href="javascript:;">盘县</a>
+                        <a href="javascript:;">攀枝花</a>
+                        <a href="javascript:;">平江</a>
+                        <a href="javascript:;">平山</a>
+                        <a href="javascript:;">平原</a>
+                        <a href="javascript:;">濮阳</a>
+                        <a href="javascript:;">平顶山</a>
+                        <a href="javascript:;">彭州</a>
+                        <a href="javascript:;">蓬莱</a>
+                        <a href="javascript:;">鄱阳</a>
+                        <a href="javascript:;">平度</a>
+                    </span>:
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">Q</span>
+                    <span class="area">
+                        <a href="javascript:;">衢州</a>
+                        <a href="javascript:;">泉州</a>
+                        <a href="javascript:;">祁东县</a>
+                        <a href="javascript:;">钦州</a>
+                        <a href="javascript:;">杞县</a>
+                        <a href="javascript:;">杞县</a>
+                        <a href="javascript:;">齐齐哈尔</a>
+                        <a href="javascript:;">曲靖</a>
+                        <a href="javascript:;">庆云</a>
+                        <a href="javascript:;">清河</a>
+                        <a href="javascript:;">清丰</a>
+                        <a href="javascript:;">潜山</a>
+                        <a href="javascript:;">秦皇岛</a>
+                        <a href="javascript:;">青田</a>
+                        <a href="javascript:;">黔南</a>
+                        <a href="javascript:;">庆安县</a>
+                        <a href="javascript:;">淇县</a>
+                        <a href="javascript:;">青冈县</a>
+                        <a href="javascript:;">青岛</a>
+                        <a href="javascript:;">曲阜</a>
+                        <a href="javascript:;">沁阳</a>
+                        <a href="javascript:;">琼海</a>
+                        <a href="javascript:;">黔西南</a>
+                        <a href="javascript:;">青州</a>
+                        <a href="javascript:;">全椒</a>
+                        <a href="javascript:;">清远</a>
+                        <a href="javascript:;">黔东南</a>
+                        <a href="javascript:;">潜江</a>
+                        <a href="javascript:;">青县</a>
+                        <a href="javascript:;">七台河</a>
+                        <a href="javascript:;">迁安</a>
+                        <a href="javascript:;">邛崃</a>
+                        <a href="javascript:;">栖霞</a>
+                        <a href="javascript:;">庆阳</a>
+                        <a href="javascript:;">启东</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">R</span>
+                    <span class="area">
+                        <a href="javascript::;">瑞安</a>
+                        <a href="javascript::;">日喀则</a>
+                        <a href="javascript::;">任丘</a>
+                        <a href="javascript::;">乳山</a>
+                        <a href="javascript::;">荣成</a>
+                        <a href="javascript::;">如东</a>
+                        <a href="javascript::;">任县</a>
+                        <a href="javascript::;">容县</a>
+                        <a href="javascript::;">荣昌区</a>
+                        <a href="javascript::;">日照</a>
+                        <a href="javascript::;">如皋</a>
+                        <a href="javascript::;">汝城县</a>
+                        <a href="javascript::;">瑞昌</a>
+                        <a href="javascript::;">汝州</a>
+                        <a href="javascript::;">瑞金</a>
+                        <a href="javascript::;">仁怀</a>
+                        <a href="javascript::;">仁寿</a>
+                        <a href="javascript::;">汝阳</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">S</span>
+                    <span class="area">
+                        <a href="javascript:;">上海</a>
+                        <a href="javascript:;">深圳</a>
+                        <a href="javascript:;">松原</a>
+                        <a href="javascript:;">社旗</a>
+                        <a href="javascript:;">神木</a>
+                        <a href="javascript:;">深州市</a>
+                        <a href="javascript:;">绥中</a>
+                        <a href="javascript:;">朔州</a>
+                        <a href="javascript:;">上虞</a>
+                        <a href="javascript:;">绍兴</a>
+                        <a href="javascript:;">宿迁</a>
+                        <a href="javascript:;">上林县</a>
+                        <a href="javascript:;">尚志</a>
+                        <a href="javascript:;">肃宁县</a>
+                        <a href="javascript:;">桑植</a>
+                        <a href="javascript:;">石门</a>
+                        <a href="javascript:;">睢宁</a>
+                        <a href="javascript:;">上栗</a>
+                        <a href="javascript:;">泗县</a>
+                        <a href="javascript:;">沙河</a>
+                        <a href="javascript:;">神农架</a>
+                        <a href="javascript:;">遂昌</a>
+                        <a href="javascript:;">舒兰</a>
+                        <a href="javascript:;">什邡</a>
+                        <a href="javascript:;">顺德</a>
+                        <a href="javascript:;">双鸭山</a>
+                        <a href="javascript:;">四会</a>
+                        <a href="javascript:;">上蔡</a>
+                        <a href="javascript:;">石岛</a>
+                        <a href="javascript:;">山南</a>
+                        <a href="javascript:;">上杭</a>
+                        <a href="javascript:;">汕头</a>
+                        <a href="javascript:;">三明</a>
+                        <a href="javascript:;">汕尾</a>
+                        <a href="javascript:;">三清山</a>
+                        <a href="javascript:;">泗水</a>
+                        <a href="javascript:;">石河子</a>
+                        <a href="javascript:;">韶关</a>
+                        <a href="javascript:;">嵊泗</a>
+                        <a href="javascript:;">遂宁</a>
+                        <a href="javascript:;">涉县</a>
+                        <a href="javascript:;">寿光</a>
+:
+                        <a href="javascript:;">四平</a>
+                        <a href="javascript:;">石嘴山</a>
+                        <a href="javascript:;">商城县</a>
+                        <a href="javascript:;">苏州</a>
+                        <a href="javascript:;">泗阳</a>
+                        <a href="javascript:;">松滋</a>
+                        <a href="javascript:;">射洪</a>
+                        <a href="javascript:;">绥化</a>
+                        <a href="javascript:;">嵊州</a>
+                        <a href="javascript:;">商丘</a>
+                        <a href="javascript:;">上高</a>
+                        <a href="javascript:;">沙湾</a>
+                        <a href="javascript:;">石狮</a>
+                        <a href="javascript:;">嵩县</a>
+                        <a href="javascript:;">石家庄</a>
+                        <a href="javascript:;">宿州</a>
+                        <a href="javascript:;">双峰</a>
+                        <a href="javascript:;">沈阳</a>
+                        <a href="javascript:;">三门峡</a>
+                        <a href="javascript:;">莎车县</a>
+                        <a href="javascript:;">射阳</a>
+                        <a href="javascript:;">舒城</a>
+                        <a href="javascript:;">沈丘</a>
+                        <a href="javascript:;">睢县</a>
+                        <a href="javascript:;">韶山</a>
+                        <a href="javascript:;">沭阳</a>
+                        <a href="javascript:;">商河</a>
+                        <a href="javascript:;">十堰</a>
+                        <a href="javascript:;">邵阳</a>
+                        <a href="javascript:;">三亚</a>
+                        <a href="javascript:;">鄯善县</a>
+                        <a href="javascript:;">随州</a>
+                        <a href="javascript:;">泗洪</a>
+                        <a href="javascript:;">单县</a>
+                        <a href="javascript:;">商水县</a>
+                        <a href="javascript:;">三峡</a>
+                        <a href="javascript:;">上饶</a>
+                        <a href="javascript:;">三门</a>
+                        <a href="javascript:;">遂川</a>
+                        <a href="javascript:;">三河</a>
+                        <a href="javascript:;">邵东</a>
+                        <a href="javascript:;">商洛</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">T</span>
+                    <span class="area">
+                        <a href="javascript:;">天津</a>
+                        <a href="javascript:;">塘沽</a>
+                        <a href="javascript:;">桐乡</a>
+                        <a href="javascript:;">铁岭</a>
+                        <a href="javascript:;">太仓</a>
+                        <a href="javascript:;">台湾连江</a>
+                        <a href="javascript:;">吐鲁番</a>
+                        <a href="javascript:;">郯城</a>
+                        <a href="javascript:;">铜梁</a>
+                        <a href="javascript:;">泰和县</a>
+                        <a href="javascript:;">土默特右旗</a>
+                        <a href="javascript:;">通辽</a>
+                        <a href="javascript:;">唐山</a>
+                        <a href="javascript:;">桐城</a>
+                        <a href="javascript:;">桐庐</a>
+                        <a href="javascript:;">塔城</a>
+                        <a href="javascript:;">泰州</a>
+                        <a href="javascript:;">泰兴</a>
+                        <a href="javascript:;">铜陵</a>
+                        <a href="javascript:;">天水</a>
+                        <a href="javascript:;">汤阴</a>
+                        <a href="javascript:;">唐河</a>
+                        <a href="javascript:;">台州</a>
+                        <a href="javascript:;">台前</a>
+                        <a href="javascript:;">铜鼓</a>
+                        <a href="javascript:;">台东</a>
+                        <a href="javascript:;">太康县</a>
+                        <a href="javascript:;">太和</a>
+                        <a href="javascript:;">桃园</a>
+                        <a href="javascript:;">台中</a>
+                        <a href="javascript:;">铜川</a>
+                        <a href="javascript:;">通许县</a>
+                        <a href="javascript:;">台南</a>
+                        <a href="javascript:;">天门</a>
+                        <a href="javascript:;">桃源</a>
+                        <a href="javascript:;">藤县</a>
+                        <a href="javascript:;">台北</a>
+                        <a href="javascript:;">天台</a>
+                        <a href="javascript:;">同安</a>
+                        <a href="javascript:;">通榆县</a>
+                        <a href="javascript:;">田东县</a>
+                        <a href="javascript:;">通海县</a>
+                        <a href="javascript:;">太原</a>
+                        <a href="javascript:;">台山</a>
+                        <a href="javascript:;">铜仁</a>
+                        <a href="javascript:;">天长</a>
+                        <a href="javascript:;">洮南</a>
+                        <a href="javascript:;">泰安</a>
+                        <a href="javascript:;">太谷</a>
+                        <a href="javascript:;">滕州</a>
+                        <a href="javascript:;">腾冲</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">W</span>
+                    <span class="area">
+                        :<a href="javascript:;">武汉</a>
+                        <a href="javascript:;">武义</a>
+                        <a href="javascript:;">武平县</a>
+                        <a href="javascript:;">舞钢</a>
+                        <a href="javascript:;">无锡</a>
+                        <a href="javascript:;">文山</a>
+                        <a href="javascript:;">潍坊</a>
+                        <a href="javascript:;">万州</a>
+                        <a href="javascript:;">武鸣</a>
+                        <a href="javascript:;">芜湖</a>
+                        <a href="javascript:;">无极</a>
+                        <a href="javascript:;">万荣</a>
+                        <a href="javascript:;">微山</a>
+                        <a href="javascript:;">汶上</a>
+                        <a href="javascript:;">乌鲁木齐</a>
+                        <a href="javascript:;">吴忠</a>
+                        <a href="javascript:;">武城</a>
+                        <a href="javascript:;">吴川</a>
+                        <a href="javascript:;">万宁</a>
+                        <a href="javascript:;">渭南</a>
+                        <a href="javascript:;">围场</a>
+                        <a href="javascript:;">武夷山</a>
+                        <a href="javascript:;">威宁</a>
+                        <a href="javascript:;">武威</a>
+                        <a href="javascript:;">威海</a>
+                        <a href="javascript:;">舞阳</a>
+                        <a href="javascript:;">吴江</a>
+                        <a href="javascript:;">温县</a>
+                        <a href="javascript:;">武安</a>
+                        <a href="javascript:;">武陟</a>
+                        <a href="javascript:;">乌兰察布</a>
+                        <a href="javascript:;">温岭</a>
+                        <a href="javascript:;">乌海</a>
+                        <a href="javascript:;">万载</a>
+                        <a href="javascript:;">乌拉特前旗</a>
+                        <a href="javascript:;">文昌</a>
+                        <a href="javascript:;">文登</a>
+                        <a href="javascript:;">尉氏县</a>
+                        <a href="javascript:;">乌苏</a>
+                        <a href="javascript:;">武穴</a>
+                        <a href="javascript:;">卫辉</a>
+                        <a href="javascript:;">乌镇</a>
+                        <a href="javascript:;">无为</a>
+                        <a href="javascript:;">芜湖县</a>
+                        <a href="javascript:;">梧州</a>
+                        <a href="javascript:;">武当山</a>
+                        <a href="javascript:;">婺源</a>
+                        <a href="javascript:;">温州</a>
+                        <a href="javascript:;">威县</a>
+                        <a href="javascript:;">武隆县</a>
+
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">X</span>
+                    <span class="area">
+
+                        <a href="javascript:;">西安</a>
+                        <a href="javascript:;">兴宁</a>
+                        <a href="javascript:;">信宜</a>
+                        <a href="javascript:;">溆浦</a>
+                        <a href="javascript:;">咸阳</a>
+                        <a href="javascript:;">夏津</a>
+                        <a href="javascript:;">襄阳</a>
+                        <a href="javascript:;">新乡县</a>
+                        <a href="javascript:;">新北</a>
+                        <a href="javascript:;">新竹县</a>
+                        <a href="javascript:;">兴化</a>
+                        <a href="javascript:;">咸宁</a>
+                        <a href="javascript:;">孝感</a>
+                        <a href="javascript:;">新民</a>
+                        <a href="javascript:;">西双版纳</a>
+                        <a href="javascript:;">新安</a>
+                        <a href="javascript:;">新化</a>
+                        <a href="javascript:;">湘阴</a>
+                        <a href="javascript:;">兴国县</a>
+                        <a href="javascript:;">西塘</a>
+                        <a href="javascript:;">许昌</a>
+                        <a href="javascript:;">信丰</a>
+                        <a href="javascript:;">湘西</a>
+                        <a href="javascript:;">湘乡</a>
+                        <a href="javascript:;">新洲区</a>
+                        <a href="javascript:;">兴平</a>
+                        <a href="javascript:;">新蔡</a>
+                        <a href="javascript:;">新余</a>
+                        <a href="javascript:;">兴城</a>
+                        <a href="javascript:;">襄城县</a>
+                        <a href="javascript:;">献县</a>
+                        <a href="javascript:;">辛集</a>
+                        <a href="javascript:;">宣城</a>
+                        <a href="javascript:;">新野</a>
+                        <a href="javascript:;">孝义</a>
+                        <a href="javascript:;">新泰</a>
+                        <a href="javascript:;">厦门</a>
+                        <a href="javascript:;">响水</a>
+                        <a href="javascript:;">西宁</a>
+                        <a href="javascript:;">仙居</a>
+                        <a href="javascript:;">新竹市</a>
+                        <a href="javascript:;">湘潭</a>
+                        <a href="javascript:;">秀山土家族苗族自治县</a>
+                        <a href="javascript:;">寻乌县</a>
+                        <a href="javascript:;">新乐</a>
+                        <a href="javascript:;">祥云县</a>
+                        <a href="javascript:;">新宁</a>
+                        <a href="javascript:;">西华</a>
+                        <a href="javascript:;">信阳</a>
+                        <a href="javascript:;">锡林郭勒</a>
+                        <a href="javascript:;">兴安盟</a>
+                        <a href="javascript:;">新竹县</a>
+                        <a href="javascript:;">西乡</a>
+                        <a href="javascript:;">盱眙</a>
+                        <a href="javascript:;">忻州</a>
+                        <a href="javascript:;">浚县</a>
+                        <a href="javascript:;">萧山</a>
+                        <a href="javascript:;">夏邑</a>
+                        <a href="javascript:;">新干</a>
+                        <a href="javascript:;">邢台</a>
+                        <a href="javascript:;">徐闻</a>
+                        <a href="javascript:;">襄垣</a>
+                        <a href="javascript:;">西平</a>
+                        <a href="javascript:;">淅川</a>
+                        <a href="javascript:;">香河</a>
+                        <a href="javascript:;">新昌</a>
+                        <a href="javascript:;">香格里拉</a>
+                        <a href="javascript:;">新沂</a>
+                        <a href="javascript:;">霞浦</a>
+                        <a href="javascript:;">新郑</a>
+                        <a href="javascript:;">宣威</a>
+                        <a href="javascript:;">荥阳</a>
+                        <a href="javascript:;">新密</a>
+                        <a href="javascript:;">象山</a>
+                        <a href="javascript:;">浠水</a>
+                        <a href="javascript:;">新乡</a>
+                        <a href="javascript:;">修武</a>:
+                        <a href="javascript:;">新田</a>
+                        <a href="javascript:;">仙桃</a>
+                        <a href="javascript:;">徐州</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">Y</span>
+                    <span class="area">
+                        <a href="javascript:;">酉阳土家族苗族自治县</a>
+                        <a href="javascript:;">永新</a>
+                        <a href="javascript:;">裕民县</a>
+                        <a href="javascript:;">宜丰</a>
+                        <a href="javascript:;">永安</a>
+                        <a href="javascript:;">攸县</a>
+                        <a href="javascript:;">鄢陵</a>
+                        <a href="javascript:;">营山县</a>
+                        <a href="javascript:;">永丰</a>
+                        <a href="javascript:;">永顺县</a>
+                        <a href="javascript:;">永兴县</a>
+                        <a href="javascript:;">原平</a>
+                        <a href="javascript:;">延吉</a>
+                        <a href="javascript:;">乐清</a>
+                        <a href="javascript:;">阳朔</a>
+                        <a href="javascript:;">余姚</a>
+                        <a href="javascript:;">伊犁</a>
+                        <a href="javascript:;">义乌</a>
+                        <a href="javascript:;">银川</a>
+                        <a href="javascript:;">延安</a>
+                        <a href="javascript:;">榆林</a>
+                        <a href="javascript:;">永康</a>
+                         <a href="javascrip:t;">兖州</a>
+                        <a href="javascript:;">禹城</a>
+                        <a href="javascript:;">禹州</a>
+                        <a href="javascript:;">伊宁</a>
+                        <a href="javascript:;">偃师</a>
+                        <a href="javascript:;">仪征</a>
+                        <a href="javascript:;">扬中</a>
+                        <a href="javascript:;">伊川</a>
+                        <a href="javascript:;">福德</a>
+                        <a href="javascript:;">玉树</a>
+                        <a href="javascript:;">玉溪</a>
+                          <a href="javascri:pt;">延边</a>
+                        <a href="javascript:;">伊春</a>
+                        <a href="javascript:;">盐城</a>
+                        <a href="javascript:;">鹰潭</a>
+                        <a href="javascript:;">营口</a>
+                        <a href="javascript:;">运城</a>
+                        <a href="javascript:;">烟台</a>
+                        <a href="javascript:;">扬州</a>
+                        <a href="javascript:;">阳泉</a>
+                        <a href="javascript:;">宜春</a>
+                        <a href="javascript:;">宜昌</a>
+                        <a href="javascript:;">雅安</a>
+                        <a href="javascript:;">云浮</a>
+                        <a href="javascript:;">玉林</a>
+                        <a href="javascript:;">宜宾</a>
+                        <a href="javascript:;">益阳</a>
+                        <a href="javascript:;">永州</a>
+                        <a href="javascript:;">阳江</a>
+                        <a href="javascript:;">岳阳</a>
+                        <a href="javascript:;">宣城</a>
+                        <a href="javascript:;">宜兴</a>
+                        <a href="javascript:;">虞城</a>
+                        <a href="javascript:;">阎良</a>
+                        <a href="javascript:;">原阳</a>
+                        <a href="javascript:;">永川</a>
+                        <a href="javascript:;">宜兰</a>
+                        <a href="javascript:;">永年</a>
+                        <a href="javascript:;">玉山</a>
+                        <a href="javascript:;">易县</a>
+                        <a href="javascript:;">宣阳</a>
+                        <a href="javascript:;">云阳</a>
+                        <a href="javascript:;">郓城</a>
+                        <a href="javascript:;">阳谷</a>
+                        <a href="javascript:;">阳城</a>
+                        <a href="javascript:;">永城</a>
+                        <a href="javascript:;">叶县</a>
+                        <a href="javascript:;">沅江</a>
+                        <a href="javascript:;">云林</a>
+                        <a href="javascript:;">沂南</a>
+                        <a href="javascript:;">玉环</a>
+                        <a href="javascript:;">永济</a>
+                        <a href="javascript:;">杨林</a>
+                        <a href="javascript:;">杨凌</a>
+                        <a href="javascript:;">于都</a>
+                        <a href="javascript:;">沂水</a>
+                        <a href="javascript:;">宜都</a>
+                        <a href="javascript:;">伊金霍洛旗</a>
+                        <a href="javascript:;">应城</a>
+                    </span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span class="zm">Z</span>
+                    <span class="area">
+                        <a href="javascript:;">中山</a>
+                        <a href="javascript:;">湛江</a>
+                        <a href="javascript:;">芷江</a>
+                        <a href="javascript:;">郑州</a>
+                        <a href="javascript:;">株洲</a>
+                        <a href="javascript:;">淄博</a>
+                        <a href="javascript:;">珠海</a>
+                        <a href="javascript:;">张家口</a>
+                        <a href="javascript:;">肇庆</a>
+                        <a href="javascript:;">周口</a>
+                        <a href="javascript:;">枣庄</a>
+                        <a href="javascript:;">赵县</a>
+                        <a href="javascript:;">镇江</a>
+                        <a href="javascript:;">舟山</a>
+                        <a href="javascript:;">邹城</a>
+                        <a href="javascript:;">资兴市</a>
+                        <a href="javascript:;">驻马店</a>
+                        <a href="javascript:;">柘城</a>
+                        <a href="javascript:;">漳州</a>
+                        <a href="javascript:;">织金</a>
+                        <a href="javascript:;">昭通</a>
+                        <a href="javascript:;">庄河</a>
+                        <a href="javascript:;">漳浦</a>
+                        <a href="javascript:;">枣阳</a>
+                        <a href="javascript:;">邹平</a>
+                        <a href="javascript:;">章丘</a>
+                        <a href="javascript:;">周至</a>
+                        <a href="javascript:;">樟树</a>
+                        <a href="javascript:;">诸城</a>
+                        <a href="javascript:;">钟祥</a>
+                        <a href="javascript:;">招远</a>
+                        <a href="javascript:;">周庄</a>
+                        <a href="javascript:;">遵化</a>
+                        <a href="javascript:;">枝江</a>
+                        <a href="javascript:;">正定</a>
+                        <a href="javascript:;">诸暨</a>
+                        <a href="javascript:;">遵义</a>
+                        <a href="javascript:;">自贡</a>
+                        <a href="javascript:;">资阳</a>
+                        <a href="javascript:;">张家界</a>
+                        <a href="javascript:;">张掖</a>
+                        <a href="javascript:;">彰化</a>
+                        <a href="javascript:;">张家港</a>
+                        <a href="javascript:;">增城</a>
+                        <a href="javascript:;">漳平</a>
+                        <a href="javascript:;">涿州</a>
+                        <a href="javascript:;">中卫准格尔旗</a>
+                    </span>
+                </p>
+            </li>
+
+        </ol>
+    </div>
+    <div class="city-footer">
+       <p> 如果以上没有您要找的城市，请 <a href="javascript:;">点击订阅&gt;&gt;</a> 。当城市开通团购后，您可以第一时间收到最新团购信息！</p>
+    </div>
+</div>
+
+<!--底部区域-->
+<div class="bottom">
+    <div class="f_bottom center">
+        <!-- 1 -->
+        <div class="listD fl">
+            <h3>获取更新</h3>
+            <ul>
+                <li><a href="#">邮件订阅</a></li>
+                <li><a href="#">iPhone/Android</a></li>
+                <li><a href="#">美团QQ空间</a></li>
+                <li><a href="#">美团新浪微博</a></li>
+                <li><a href="#">sitemap</a></li>
+                <li><a href="#">RSS订阅</a></li>
+            </ul>
+        </div>
+        <!-- 2 -->
+        <div class="listD fl">
+            <h3>商务合作</h3>
+            <ul>
+                <li><a href="#">商家合作</a></li>
+                <li><a href="#">美团商家营销平台</a></li>
+                <li><a href="#">到店餐饮代理商招募</a></li>
+                <li><a href="#">市场合作</a></li>
+                <li><a href="#">美团联盟</a></li>
+                <li><a href="#">美团云</a></li>
+                <li><a href="#">廉正邮箱</a></li>
+                <li><a href="#">聚宝盆餐饮开放平台</a></li>
+                <li><a href="#">美团点评智能收银机</a></li>
+            </ul>
+        </div>
+        <!-- 3 -->
+        <div class="listD fl">
+            <h3>公司信息</h3>
+            <ul>
+                <li><a href="#">关于美团</a></li>
+                <li><a href="#">美团承诺</a></li>
+                <li><a href="#">媒体报道</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">用户协议</a></li>
+                <li><a href="#">商户服务协议</a></li>
+                <li><a href="#">美团点评餐饮安全管理办法</a></li>
+                <li><a href="#">营业执照</a></li>
+            </ul>
+        </div>
+        <!-- 4 -->
+        <div class="listD fl">
+            <h3>用户帮助</h3>
+            <ul>
+                <li><a href="#">申请退款</a></li>
+                <li><a href="#">查看美团券密码</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">开放API</a></li>
+                <li><a href="#">反诈骗公告p</a></li>
+            </ul>
+        </div>
+        <!--右边的客服电话div-->
+        <div class="serviceD fr">
+            <div class="phonenum">
+                <span class="kf_pic"></span>
+                <span class="kf">客服电话</span><br>
+                <span class="num">10107888</span>
+                <span class="time">(9:00-23:00)</span>
+            </div>
+            <div class="back">
+                <span>退款、退换货、查看美团券</span><br>
+		        	<span>
+		        		<a href="#">参考教程，轻松搞定!</a>
+		        	</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p class="reg"> &copy;2017 <a href="#">美团网团购 </a> meituan.com <a href="#">京ICP证070791号 </a> | <a href="#">京ICP备10211739号</a> | <a href="#">电子公告服务规则</a></p>
+    <p class="licence"><a href="#">广播电视节目制作经营许可证（京）字第03889号</a></p>
+    <p class="copyright_num">
+        <a href="#"><img src="../images/saved_resource(19)" alt="">京公网安备11010502025545号</a></p>
+    <p class="pics">
+        <a href="#"><img src="../images/pic_connect1.png" alt=""></a>
+        <a href="#"><img src="../images/pic_connect2.png" alt=""></a>
+        <a href="#"><img src="../images/pic_connect3.png" alt=""></a>
+        <a href="#"><img src="../images/pic_connect4.png" alt=""></a>
+    </p>
+</div>
+
+
+<script>
+
+    var enshrineMT = myId("enshrineMT");
+    enshrineMT.onmouseenter = function () {
+        enshrineMT.children[0].innerHTML = "&#xe692;";
+        enshrineMT.children[0].style.color = "#f76120";
+    };
+    enshrineMT.onmouseleave = function () {
+        enshrineMT.children[0].innerHTML = "&#xe608;";
+        enshrineMT.children[0].style.color = "#666666";
+    }
+     //鼠标进入，导航条出现
+    var qbfl= myId("qbfl");
+    var daohangtiao= document.getElementsByClassName("daohangtiao")[0];
+    var  iconfont=myId("iconfont");
+    qbfl.onmouseenter=function () {
+        daohangtiao.style.display="block";
+        iconfont.innerHTML="&#xe604;";
+    }
+    qbfl.onmouseleave=function () {
+        daohangtiao.style.display="none";
+        iconfont.innerHTML="&#xe605;";
+    }
+
+    //获取右上角列表元素
+    var top_list = myId("top_list").children;
+    //注册右上角列表的鼠标进入和离开事件
+    for (var i = 1; i < top_list.length; i++) {
+        top_list[i].onmouseover = top_listMouseover;
+        top_list[i].onmouseout = top_listMouseout;
+    }
+    //右上角鼠标进入事件处理函数
+    function top_listMouseover() {
+        this.children[0].className = "common mouseover";
+        this.children[0].children[1].className = "triangle_blue";
+        if (this.children[0].children[2]) {
+            this.children[0].children[2].style.display = "none";
+        }
+        this.children[1].style.display = "block";
+    }
+    //右上角鼠标离开事件处理函数
+    function top_listMouseout() {
+        this.children[0].className = "common";
+        this.children[0].children[1].className = "triangle";
+        if (this.children[0].children[2]) {
+            this.children[0].children[2].style.display = "block";
+        }
+        this.children[1].style.display = "none";
+    }
+
+    //获取搜索条件相关元素
+    var choose = myId("choose");
+    var choose_ul = choose.children[0];
+    var choose_li = choose_ul.children;
+    var search_text = myId("search_text");
+    //注册搜索条件鼠标进入事件
+    choose_ul.onmouseover = function () {
+        this.className = "mouseover";
+        choose.children[1].className = "triangle_blue";
+        for (var i = 0; i < choose_li.length; i++) {
+            choose_li[i].style.paddingLeft = "13px";
+        }
+    };
+    //注册搜索条件鼠标离开事件
+    choose_ul.onmouseout = function () {
+        this.className = "";
+        choose.children[1].className = "triangle";
+        for (var i = 0; i < choose_li.length; i++) {
+            choose_li[i].style.paddingLeft = "14px";
+        }
+    };
+    //注册搜索条件鼠标点击事件
+    choose_li[1].onclick = function () {
+        var temp = choose_li[0].innerHTML;
+        choose_li[0].innerHTML = this.innerHTML;
+        this.innerHTML = temp;
+        this.parentElement.className = "";
+        choose.children[1].className = "triangle";
+        for (var i = 0; i < choose_li.length; i++) {
+            choose_li[i].style.paddingLeft = "14px";
+        }
+        if (choose_li[0].innerHTML == "团购") {
+            search_text.placeholder = "请输入商品名称、地址等";
+        } else {
+            search_text.placeholder = "请输入商家名称、地址等";
+        }
+    };
+    //获取搜索框右侧的小图标元素
+    var commitment_a_span = myId("commitment_a").children;
+    //为每个小图标添加鼠标进入和离开时的动画效果
+    for (var i = 0; i < commitment_a_span.length; i++) {
+        commitment_a_span[i].children[0].onmouseover = function () {
+            animate(this, {"transform": 360});
+        };
+        commitment_a_span[i].children[0].onmouseout = function () {
+            animate(this, {"transform": 0});
+        };
+    }
+
+    //导航的鼠标进入和离开
+     $(document).ready(function () {//这样设置的是行内样式
+         $(".daohang>li").mouseenter(function () {
+             $(this).css("background","#fff").siblings().css("background","#eee");
+             $(".youbian").eq($(this).index()).css({'border-right':'1px solid #bdbdc7','border-bottom':'1px solid #bdbdc7'});
+              $(this).parent().css({"border-left":"1px solid #bdbdc7","border-bottom":"1px solid #bdbdc7","border-right":"none"});
+             if($(this).index()==3 || $(this).index()==8 ){
+                 $(".youbian").eq($(this).index()).css("display","none").siblings().css("display","none");
+             }else{
+                 $(".youbian").eq($(this).index()).css("display","block").siblings().css("display","none");    
+             }
+         })
+         $(".qbfl>.daohangtao").mouseleave(function () {
+             $(".daohangtiao>.content1").children("div").css("display","none");
+         })
+     })
+
+</script>
+</body>
+</html>

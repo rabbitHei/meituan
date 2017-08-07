@@ -1,0 +1,111 @@
+.header .header-nav{
+    height: 40px;
+    background-color: #2BB8AA;
+    line-height: 40px;
+}
+.header .header-nav .qbfl{
+    background-color: #1CAF9A;
+    width: 246px;
+    /*padding:0 20px;*/
+    font-size: 16px;
+    position: relative;
+}
+.header .header-nav .qbfl span{
+    color: #fff;
+    padding-left:20px;
+}
+.header .header-nav .qbfl i{
+    float: right;
+    color: #fff;
+}
+.header .header-nav .nav li{
+    float: left;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+}
+.header .header-nav .nav li:hover{
+    width: 70px;
+    background: #1CAF9A;
+}
+.header .header-nav .nav li a{
+    color: #fff;
+}
+
+.header .header-nav .qbfl .daohangtiao a:hover{
+    color: #2BB8AA;
+}
+.header .header-nav .qbfl .current{
+    color: #F76120;
+}
+.header .header-nav .qbfl .daohangtiao{
+    position:absolute;
+    display: none;
+    z-index: 200;
+}
+.header .header-nav .qbfl .content1{
+    position:absolute;
+    margin-left:246px;
+}
+.header .header-nav .qbfl .daohang{
+    width: 246px;
+    height: 484px;
+    border: 1px solid #EEEEEE;
+    background: #FAFAFA;
+}
+.header .header-nav .qbfl .daohang li {
+    padding:0 10px;
+    height: 53px;
+    border-bottom: 1px solid #eee;
+    line-height: 53px;
+}
+.header .header-nav .qbfl .daohang li h3 a{
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+.header .header-nav .qbfl .daohang li span{
+    float: right;
+}
+.header .header-nav .qbfl .daohang li span a{
+     float:left;
+     font-size: 12px;
+     color: #C0A5B1;
+ }
+.header .header-nav .qbfl .daohang li i{
+    float: right;
+    font-size: 12px;
+    color: #C0A5B1;
+}
+.header .header-nav .qbfl .youbian li{
+    color: #C0A5B1;
+    font-size: 8px;
+}
+.header .header-nav .qbfl .youbian{
+    padding: 10px 40px 10px 10px;
+    height: 466px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    width: 240px;
+    display: none;
+    background: #fff;
+}
+.header .header-nav .qbfl h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.header .header-nav .qbfl .danghang li,
+.header .header-nav .qbfl .content1 li{
+    height: 20px;
+    line-height: 20px;
+}
+
+.header .header-nav .qbfl .one{
+    float: left;
+    margin-right: 50px;
+}
+.header .header-nav .qbfl  .two{
+    float: right;
+}

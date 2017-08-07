@@ -1,0 +1,139 @@
+.flash_sale {
+    height: 310px;
+    margin-top: 30px;
+}
+
+.flash_sale .flash_sale_bx {
+    height: 310px;
+}
+
+.flash_sale .flash_sale_bx .count_down {
+    height: 48px;
+}
+
+.flash_sale .flash_sale_bx .count_down .count_down_time {
+    width: 225px;
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    margin-left: 5px;
+}
+
+.flash_sale .flash_sale_bx .count_down .count_down_time .jxz {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.flash_sale .flash_sale_bx .count_down .count_down_time span {
+    float: left;
+    margin-top: 6px;
+    margin-left: 2px;
+    width: 20px;
+    height: 28px;
+    background: url(../images/sprite.png) no-repeat 0 -82px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.flash_sale .flash_sale_bx .count_down .count_down_time b {
+    float: left;
+    width: 2px;
+    height: 28px;
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.flash_sale .flash_sale_bx .goods_list {
+    height: 260px;
+    border: 1px solid #eeeeee;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li {
+    float: left;
+    width: 232px;
+    height: 260px;
+    border-right: 1px solid #eeeeee;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li:nth-last-child(1) {
+    border: none;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > a {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    perspective: 205px;
+    perspective-origin: top;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > a img {
+    width: 205px;
+    height: 124px;
+    transform-style: preserve-3d;
+    transition: transform 2s cubic-bezier(0.71,-0.46, 0.35, 1.63) 0.1s;
+    transform-origin: center center -102px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > a:hover img {
+    transform: rotateY(360deg);
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > h6 {
+    margin-top: 18px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > h6 a {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > p {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding: 0 16px;
+    height: 17px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > p strong {
+    color: #f76120;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > p span {
+    margin-top: 2px;
+    color: #999999;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > div {
+    height: 48px;
+    padding: 0 16px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > div p {
+    border-top: 1px solid #eeeeee;
+    height: 47px;
+}
+
+.flash_sale .flash_sale_bx .goods_list ul li > div p span {
+    padding: 1px 5px;
+    background-color: #f76120;
+    color: #ffffff;
+    line-height: 47px;
+}

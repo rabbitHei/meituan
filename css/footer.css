@@ -1,0 +1,117 @@
+/*通用的底部样式*/
+.bottom a:hover{
+	text-decoration: underline;
+}
+.bottom{
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+}
+.f_bottom{
+	height: 277px;
+	border-top: 3px double #EEE;
+}
+/*每个列表的div样式*/
+.f_bottom .listD{
+	width: 206px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.f_bottom .listD h3{
+	font: bold 14px "微软雅黑";
+	color: #666;
+	margin-bottom: 12px;
+}
+.f_bottom .listD ul li{
+    line-height: 1.8em;
+}
+.f_bottom .listD ul li a{
+    color: #999;
+}
+
+/*客服以及退换货区域*/
+.f_bottom .serviceD{
+	width: 270px;
+	height: 161px;
+	border-left: 1px solid #eee;
+    margin-top: 20px;
+    padding-left: 35px;
+}
+.f_bottom .serviceD .phonenum{
+	margin-top: 50px;
+	margin-bottom: 27px;
+	position: relative;
+}
+.f_bottom .serviceD .phonenum .kf_pic{
+	width: 50px;
+	height: 48px;
+	position: absolute;
+	top: -50px;
+	left: 0;
+	background: url("../images/foot.png");
+}
+.f_bottom .serviceD .phonenum .kf{
+    font-size: 14px;
+    line-height: 21px;
+    color: #666;
+}
+.f_bottom .serviceD .phonenum .num{
+    font:bold 18px "微软雅黑";
+    color: #666;
+}
+.f_bottom .serviceD .phonenum .time{
+    color: #999;
+}
+.f_bottom .serviceD .back a{
+	color:#2bb8aa;
+}
+/*底部备案*/
+.copyright{
+	margin-top: 28px;
+}
+.copyright p{
+	text-align: center;
+	color: #999;
+}
+.copyright p a{
+	color: #999;
+}
+.copyright p.reg{
+	padding-bottom: 15px;
+}
+.copyright p.licence{
+	padding-bottom: 5px;
+}
+.copyright p.copyright_num{
+	line-height: 20px;
+}
+.copyright p.pics{
+    margin-top: 50px;
+}
+.copyright p img{
+	margin-top: -1px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
